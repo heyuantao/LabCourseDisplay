@@ -7,6 +7,11 @@ class UserSerializer(serializers.Serializer):
     username = serializers.CharField(max_length=150)
     email = serializers.EmailField()
 
+    def to_representation(self, instance):
+        ret = super(UserSerializer, self).to_representation(instance)
+        ret['id'] = instance.id
+        return ret
+
     def create(self, validated_data):
         user_instance = User(**validated_data)
         user_instance.save()

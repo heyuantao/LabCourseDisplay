@@ -1,12 +1,18 @@
 # -*- coding: utf-8 -*-
 
 import logging
+import traceback
 
+from rest_framework import generics
+from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from django.shortcuts import render
 
 # Create your views here.
+from API.serializers import ExperimentalCenterSerializer
+from MAIN.exceptions import MessageException
+from MAIN.models import ExperimentalCenterModel
 from MAIN.serializers import UserSerializer
 
 logger = logging.getLogger(__name__)
@@ -39,3 +45,19 @@ class UserAPIView(APIView):  #This class handle user information retrive and upd
             response = Response({"redirect_url": "Null Value !"}, status=302)
             response['Cache-Control'] = 'no-cache'
             return response
+
+class ExperimentalCenterListAPIView(generics.ListCreateAPIView):
+    serializer_class = ExperimentalCenterSerializer
+    permission_classes = (IsAuthenticated,)
+
+    def get_queryset(self):
+        return ExperimentalCenterModel.objects.all()
+
+    def get(self, request, *args, **kwargs):
+        try:
+            return self.list(request, *args, **kwargs)
+        except MessageException as e:
+            return Response({'error_message':str(e)}, status=404)
+        except Exception as e:
+            logger.error(traceback.print_exc())
+            return Response({}, status=404)

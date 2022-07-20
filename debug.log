@@ -297,3 +297,122 @@ Watching for file changes with StatReloader
 "GET /main HTTP/1.1" 301 0
 "GET /main/ HTTP/1.1" 200 33
 Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /main/ HTTP/1.1" 200 33
+"GET / HTTP/1.1" 302 0
+"GET /main HTTP/1.1" 301 0
+"GET /main/ HTTP/1.1" 200 33
+"GET /api/v1/user/ HTTP/1.1" 200 7077
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+"GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+Not Found: /api/v1/experimentalcenter/
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 404 8706
+"GET /api/v1/experimentalcenter HTTP/1.1" 301 0
+Not Found: /api/v1/experimentalcenter/
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 404 8706
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /api/v1/experimentalcenter/
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 404 8706
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /api/v1/experimentalcenter/
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 404 8706
+Not Found: /api/v1/experimentalcenter/
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 404 8706
+Watching for file changes with StatReloader
+Not Found: /api/v1/experimentalcenter/
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 404 8706
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 8699
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 8854
+/mnt/d/projects/LabCourseDispaly/API/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 8908
+"GET /api/v1/user/ HTTP/1.1" 200 7077
+Watching for file changes with StatReloader
+Internal Server Error: /api/v1/user/
+Traceback (most recent call last):
+  File "/mnt/d/projects/labcoursedisplayvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/d/projects/labcoursedisplayvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/d/projects/labcoursedisplayvenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/d/projects/labcoursedisplayvenv/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/d/projects/labcoursedisplayvenv/lib/python3.6/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/d/projects/labcoursedisplayvenv/lib/python3.6/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/d/projects/labcoursedisplayvenv/lib/python3.6/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/d/projects/labcoursedisplayvenv/lib/python3.6/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/d/projects/LabCourseDispaly/API/views.py", line 26, in get
+    return Response(serializer.data, status=200)
+  File "/mnt/d/projects/labcoursedisplayvenv/lib/python3.6/site-packages/rest_framework/serializers.py", line 548, in data
+    ret = super().data
+  File "/mnt/d/projects/labcoursedisplayvenv/lib/python3.6/site-packages/rest_framework/serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "/mnt/d/projects/LabCourseDispaly/MAIN/serializers.py", line 11, in to_representation
+    ret = super(UserSerializer, self).to_representation()
+TypeError: to_representation() missing 1 required positional argument: 'instance'
+"GET /api/v1/user/ HTTP/1.1" 500 100413
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 200 7100
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+"GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+"GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2314
