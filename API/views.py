@@ -2,6 +2,8 @@
 
 import logging
 import traceback
+from io import BytesIO
+import pandas
 
 from rest_framework import generics
 from rest_framework.permissions import IsAuthenticated
@@ -12,7 +14,7 @@ from django.shortcuts import render
 # Create your views here.
 from API.serializers import ExperimentalCenterSerializer
 from MAIN.exceptions import MessageException
-from MAIN.models import ExperimentalCenterModel
+from MAIN.models import ExperimentalCenterModel, CourseModel
 from MAIN.serializers import UserSerializer
 
 logger = logging.getLogger(__name__)
@@ -61,3 +63,36 @@ class ExperimentalCenterListAPIView(generics.ListCreateAPIView):
         except Exception as e:
             logger.error(traceback.print_exc())
             return Response({}, status=404)
+
+class ExperimentalCenterRetrieveAPIView(generics.RetrieveAPIView):
+    serializer_class = ExperimentalCenterSerializer
+    parser_classes = (IsAuthenticated, )
+
+    def get_queryset(self):
+        return ExperimentalCenterModel.objects.all()
+
+    def retrieve(self, request, *args, **kwargs):
+        try:
+            id =kwargs['id']
+            instance = self.get_queryset().get(id = id)
+            seralizer_class = self.get_serializer_class()
+            seralizer = seralizer_class(instance)
+            return Response(seralizer.data,status=200)
+        except ExperimentalCenterModel.DoesNotExist:
+            return Response({'error_message': '未找到'}, status=400)
+        except Exception as e:
+            logger.error(traceback.print_exc())
+            return Response({'error_message': '软件出错'}, status=400)
+
+
+class ExperimentalCenterCourseFileUploaderView(APIView):
+    def post(self, request, id):
+        #先删除该ID对应的所有课程
+        CourseModel.delete_course_by_experimental_id(id)
+        #处理上传的文件
+        upload_excel_file = request.data['file']
+        if upload_excel_file.content_type not in ['application/vnd.ms-excel', ]:
+            raise MessageException('上传文件仅支持Excel格式 !')
+        upload_excel_file_content = upload_excel_file.read()
+        output = BytesIO(upload_excel_file_content)
+        excel_dataframe = pandas.read_excel(output)

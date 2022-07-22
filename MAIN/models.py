@@ -9,7 +9,12 @@ logger = logging.getLogger(__name__)
 class ExperimentalCenterModel(models.Model):
     name = models.CharField(max_length=100)
 
+
 class CourseModel(models.Model):
+    class Meta:
+        ordering = ['-id']
+
+    ##########################################################################################################################
     course_date = models.DateField()                           #课程的上课时间；例如XX年XX月XX日
     course_period = models.CharField(max_length=10)            #课程的节次；例如1-2节
     course_week_order = models.IntegerField()                  #课程的周次，该字段为辅助信息；例如2周
@@ -21,7 +26,11 @@ class CourseModel(models.Model):
     student_subject = models.CharField(max_length=50)   #学生专业
     student_count = models.IntegerField()               #学生人数
     experimental_center = models.ForeignKey(ExperimentalCenterModel, related_name="courses",on_delete=models.CASCADE)    #课程所属的实验中心
+    ##########################################################################################################################
 
+    @classmethod
+    def delete_course_by_experimental_id(cls, id):
+        CourseModel.objects.filter(id = id).delete()
 
 
 
