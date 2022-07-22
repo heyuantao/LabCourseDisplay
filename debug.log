@@ -564,3 +564,19 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 /mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 200 7100
+Not Found: /api/v1/user121
+"GET /api/v1/user121 HTTP/1.1" 404 2939
+Not Found: /api/ v1/experimentalcenterfileuploader/1/
+"GET /api/%20v1/experimentalcenterfileuploader/1/ HTTP/1.1" 404 3022
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader

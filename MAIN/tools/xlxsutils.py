@@ -182,7 +182,7 @@ class CourseDFProcessor:
         else:
             return "无教师信息"
 
-
+#测试代码
 if __name__ == "__main__":
     '''
     df = LabCourseXLSXReader.read_excel_to_pd("./data/test2.xlsx")
@@ -191,7 +191,10 @@ if __name__ == "__main__":
     print(df.head(20))
     '''
 
+
     file = open("./data/test2.xlsx", "rb")
     content = file.read()
     df = LabCourseXLSXReader.read_memory_excel_content_to_pd(content)
-    print(df)
+    df = CourseDFProcessor.parseDateAndTime(df)
+    pd.set_option('display.max_columns', None)
+    print(df.head(20))

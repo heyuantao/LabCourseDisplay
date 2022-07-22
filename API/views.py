@@ -17,6 +17,8 @@ from MAIN.exceptions import MessageException
 from MAIN.models import ExperimentalCenterModel, CourseModel
 from MAIN.serializers import UserSerializer
 
+from MAIN.tools.xlxsutils import LabCourseXLSXReader,CourseDFProcessor
+
 logger = logging.getLogger(__name__)
 
 class UserAPIView(APIView):  #This class handle user information retrive and update some part of user information,such as address ,email etc
@@ -86,6 +88,7 @@ class ExperimentalCenterRetrieveAPIView(generics.RetrieveAPIView):
 
 
 class ExperimentalCenterCourseFileUploaderView(APIView):
+
     def post(self, request, id):
         #先删除该ID对应的所有课程
         CourseModel.delete_course_by_experimental_id(id)
@@ -94,5 +97,10 @@ class ExperimentalCenterCourseFileUploaderView(APIView):
         if upload_excel_file.content_type not in ['application/vnd.ms-excel', ]:
             raise MessageException('上传文件仅支持Excel格式 !')
         upload_excel_file_content = upload_excel_file.read()
-        output = BytesIO(upload_excel_file_content)
-        excel_dataframe = pandas.read_excel(output)
+
+        df = LabCourseXLSXReader.read_memory_excel_content_to_pd(upload_excel_file_content)
+        df = CourseDFProcessor.parseDateAndTime(df)
+        pandas.set_option('display.max_columns', None)
+        print(df.head(20))
+
+
