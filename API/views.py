@@ -4,6 +4,7 @@ import logging
 import traceback
 from io import BytesIO
 import pandas
+from datetime import datetime
 
 from rest_framework import generics
 from rest_framework.permissions import IsAuthenticated
@@ -101,22 +102,27 @@ class ExperimentalCenterCourseFileUploaderView(APIView):
         # pandas.set_option('display.max_columns', None)
         # print(df.head(20))
         #将每行的数据插入数据库
+
+        ###
+        ExperimentalCenterModel.objects.get(id= id)
+
         for i,r in df.iterrows():
             #print(r)
             course_week_order = r['周次']
             lab = r['实验室']
             student_subject = r['专业班级']
             student_count = r['学生人数']
+            student_count = str(int(student_count))
             experimental_name = r['实验课程']
             experimental_item = r['实验项目']
             experimental_code = r['实验项目代码']
+            experimental_code = str(int(experimental_code))
             course_date = r['日期']
+            course_date = "{}-{}".format(datetime.now().year,course_date)
+            course_date = datetime.strptime(course_date, "%Y-%m-%d")
             course_period = r['节次']
             teacher = r['教师']
-            print(type(experimental_code))
-            print(type(student_count))
-            print(type(course_date))
-            print("###############")
+
             #print(student_count)
 
 
