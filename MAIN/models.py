@@ -3,6 +3,8 @@
 from django.db import models
 import logging
 
+from MAIN.exceptions import MessageException
+
 logger = logging.getLogger(__name__)
 
 # Create your models here.
@@ -30,7 +32,11 @@ class CourseModel(models.Model):
 
     @classmethod
     def delete_course_by_experimental_id(cls, id):
-        CourseModel.objects.filter(id = id).delete()
+        try:
+            experimental_center_instance = ExperimentalCenterModel.objects.get(id = id)
+            CourseModel.objects.filter(experimental_center = experimental_center_instance).delete()
+        except ExperimentalCenterModel.DoesNotExist:
+            raise MessageException('实验中心对应的ID不存在')
 
 
 

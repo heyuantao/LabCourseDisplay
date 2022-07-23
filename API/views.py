@@ -104,10 +104,12 @@ class ExperimentalCenterCourseFileUploaderView(APIView):
         #将每行的数据插入数据库
 
         ###
-        ExperimentalCenterModel.objects.get(id= id)
+        try:
+            experimentalCenterInstance = ExperimentalCenterModel.objects.get(id= id)
+        except ExperimentalCenterModel.DoesNotExist:
+            raise MessageException('该ID对应的实验中心不存在')
 
         for i,r in df.iterrows():
-            #print(r)
             course_week_order = r['周次']
             lab = r['实验室']
             student_subject = r['专业班级']
@@ -123,9 +125,12 @@ class ExperimentalCenterCourseFileUploaderView(APIView):
             course_period = r['节次']
             teacher = r['教师']
 
-            #print(student_count)
-
-
+            record= {'course_week_order':course_week_order, 'lab':lab, 'student_subject':student_subject, \
+                     'student_count':student_count, 'experimental_name':experimental_name, 'experimental_item':experimental_item,\
+                     'experimental_code':experimental_code, 'course_date':course_date,'course_period':course_period, \
+                     'teacher':teacher, \
+                     'experimental_center':experimentalCenterInstance}
+            CourseModel(**record).save()
 
     def post(self, request, id):
         try:
