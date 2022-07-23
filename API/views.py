@@ -90,7 +90,25 @@ class ExperimentalCenterRetrieveAPIView(generics.RetrieveAPIView):
 
 
 class ExperimentalCenterCourseFileUploaderView(APIView):
-    permission_classes = (IsAuthenticated,)
+    #permission_classes = (IsAuthenticated,)
+
+    def parse_the_upload_file_and_store_into_db(self, id, uploadfile):
+        # uploadfile 是上传的xlsx格式的excel文件
+        upload_excel_file_content = uploadfile.read()
+
+        df = LabCourseXLSXReader.read_memory_excel_content_to_pd(upload_excel_file_content)
+        df = CourseDFProcessor.parseDateAndTime(df)
+        # pandas.set_option('display.max_columns', None)
+        # print(df.head(20))
+        #将每行的数据插入数据库
+        for i,r in df.iterrows():
+            print(r)
+            course_week_order = r['周次']
+            lab = r['实验室']
+            student_count = r['学生人数']
+            print(student_count)
+
+
 
     def post(self, request, id):
         try:
@@ -98,17 +116,14 @@ class ExperimentalCenterCourseFileUploaderView(APIView):
             CourseModel.delete_course_by_experimental_id(id)
             #处理上传的文件
             upload_excel_file = request.data['file']
-            #only support xlsx format file
+            #仅支持以 xlsx 结尾的文件
             #  'application/vnd.ms-excel' not use any more
             #print(upload_excel_file.content_type)
+
             if upload_excel_file.content_type not in ['application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',]:
                 raise MessageException('上传文件仅支持Excel的xlsx格式 !')
-            upload_excel_file_content = upload_excel_file.read()
+            self.parse_the_upload_file_and_store_into_db(id, upload_excel_file)
 
-            df = LabCourseXLSXReader.read_memory_excel_content_to_pd(upload_excel_file_content)
-            df = CourseDFProcessor.parseDateAndTime(df)
-            #pandas.set_option('display.max_columns', None)
-            #print(df.head(20))
             return Response({}, status=200)
         except MessageException as e:
             return Response({'error_message':str(e)}, status=404)
