@@ -18,7 +18,7 @@ urlpatterns = [
     path('v1/experimentalcenter/<int:id>/', ExperimentalCenterRetrieveAPIView.as_view()),
 
     #实验中心课程文件上传API,其中ID为实验中心的主键
-    path('v1/experimentalcenterfileuploader/<int:id>/',ExperimentalCenterCourseFileUploaderView.as_view())
+    path('v1/experimentalcenter/<int:id>/file/',ExperimentalCenterCourseFileUploaderView.as_view())
 
     #实验中心课程API
 

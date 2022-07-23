@@ -68,7 +68,7 @@ class ExperimentalCenterListAPIView(generics.ListCreateAPIView):
 
 class ExperimentalCenterRetrieveAPIView(generics.RetrieveAPIView):
     serializer_class = ExperimentalCenterSerializer
-    parser_classes = (IsAuthenticated, )
+    permission_classes = (IsAuthenticated,)
 
     def get_queryset(self):
         return ExperimentalCenterModel.objects.all()
@@ -82,25 +82,39 @@ class ExperimentalCenterRetrieveAPIView(generics.RetrieveAPIView):
             return Response(seralizer.data,status=200)
         except ExperimentalCenterModel.DoesNotExist:
             return Response({'error_message': '未找到'}, status=400)
+        except MessageException as e:
+            return Response({'error_message':str(e)}, status=404)
         except Exception as e:
             logger.error(traceback.print_exc())
             return Response({'error_message': '软件出错'}, status=400)
 
 
 class ExperimentalCenterCourseFileUploaderView(APIView):
+    permission_classes = (IsAuthenticated,)
 
     def post(self, request, id):
-        #先删除该ID对应的所有课程
-        CourseModel.delete_course_by_experimental_id(id)
-        #处理上传的文件
-        upload_excel_file = request.data['file']
-        if upload_excel_file.content_type not in ['application/vnd.ms-excel', ]:
-            raise MessageException('上传文件仅支持Excel格式 !')
-        upload_excel_file_content = upload_excel_file.read()
+        try:
+            #先删除该ID对应的所有课程
+            CourseModel.delete_course_by_experimental_id(id)
+            #处理上传的文件
+            upload_excel_file = request.data['file']
+            #only support xlsx format file
+            #  'application/vnd.ms-excel' not use any more
+            #print(upload_excel_file.content_type)
+            if upload_excel_file.content_type not in ['application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',]:
+                raise MessageException('上传文件仅支持Excel的xlsx格式 !')
+            upload_excel_file_content = upload_excel_file.read()
 
-        df = LabCourseXLSXReader.read_memory_excel_content_to_pd(upload_excel_file_content)
-        df = CourseDFProcessor.parseDateAndTime(df)
-        pandas.set_option('display.max_columns', None)
-        print(df.head(20))
+            df = LabCourseXLSXReader.read_memory_excel_content_to_pd(upload_excel_file_content)
+            df = CourseDFProcessor.parseDateAndTime(df)
+            #pandas.set_option('display.max_columns', None)
+            #print(df.head(20))
+            return Response({}, status=200)
+        except MessageException as e:
+            return Response({'error_message':str(e)}, status=404)
+        except Exception as e:
+            logger.error(traceback.print_exc())
+            return Response({'error_message': '软件出错'}, status=400)
+
 
 
