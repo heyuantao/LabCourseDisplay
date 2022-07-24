@@ -154,4 +154,11 @@ class ExperimentalCenterCourseFileUploaderView(APIView):
             return Response({'error_message': '软件出错'}, status=400)
 
 
+class ExperimentalCenterCourseListAPIView(generics.ListAPIView):
+    pass
+
+class ExperimentalCenterCourseRetriveAPIView(generics.RetrieveAPIView):
+    pass
+
+
 
