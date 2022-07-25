@@ -99,7 +99,7 @@ class ExperimentalCenterCourseFileUploaderView(APIView):
         upload_excel_file_content = uploadfile.read()
 
         df = LabCourseXLSXReader.read_memory_excel_content_to_pd(upload_excel_file_content)
-        df = CourseDFProcessor.parseDateAndTime(df)
+        df = CourseDFProcessor.parseRowData(df)
         # pandas.set_option('display.max_columns', None)
         # print(df.head(20))
         #将每行的数据插入数据库

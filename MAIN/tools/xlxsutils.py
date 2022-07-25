@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+import numpy
 import pandas as pd
 import xlrd
 import xlwt
@@ -125,7 +125,7 @@ class CourseDFProcessor:
         pass
 
     @classmethod
-    def parseDateAndTime(cls, df):
+    def parseRowData(cls, df):
         parsed_date_list = []
         parsed_course_order_list = []
         parsed_course_teacher_list = []
@@ -153,6 +153,9 @@ class CourseDFProcessor:
         df = df.assign(教师 = parsed_course_teacher_list)
 
         df.rename(columns={'学生': '学生人数'}, inplace=True)
+
+        #部分表格存在无实验室房间信息的情况
+        df['实验室'] = df['实验室'].replace(numpy.nan, '无实验室房间信息')
 
         return df
 
@@ -195,6 +198,6 @@ if __name__ == "__main__":
     file = open("./data/test2.xlsx", "rb")
     content = file.read()
     df = LabCourseXLSXReader.read_memory_excel_content_to_pd(content)
-    df = CourseDFProcessor.parseDateAndTime(df)
+    df = CourseDFProcessor.parseRowData(df)
     pd.set_option('display.max_columns', None)
     print(df.head(20))
