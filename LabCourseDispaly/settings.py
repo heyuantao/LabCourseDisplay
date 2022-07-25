@@ -169,3 +169,12 @@ LOGGING = {
         },
     },
 }
+
+REST_FRAMEWORK = {
+    'EXCEPTION_HANDLER': 'LabCourseDisplay.rest_framework_utils.rest_framework_custion_exception_handler',
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
+    'PAGE_SIZE': 8,
+    'PAGE_QUERY_PARAM': 'page',
+    'PAGE_SIZE_QUERY_PARAM' : 'size',
+    'DEFAULT_FILTER_BACKENDS': ('django_filters.rest_framework.DjangoFilterBackend',),
+}

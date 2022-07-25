@@ -13,9 +13,10 @@ from rest_framework.views import APIView
 from django.shortcuts import render
 
 # Create your views here.
-from API.serializers import ExperimentalCenterSerializer
+from API.serializers import ExperimentalCenterSerializer, CourseSerializer
 from MAIN.exceptions import MessageException
 from MAIN.models import ExperimentalCenterModel, CourseModel
+from MAIN.paginations import CustomItemPagination
 from MAIN.serializers import UserSerializer
 
 from MAIN.tools.xlxsutils import LabCourseXLSXReader,CourseDFProcessor
@@ -155,7 +156,23 @@ class ExperimentalCenterCourseFileUploaderView(APIView):
 
 
 class ExperimentalCenterCourseListAPIView(generics.ListAPIView):
-    pass
+    serializer_class = CourseSerializer
+    #permission_classes = (IsAuthenticated,)
+    pagination_class = CustomItemPagination
+
+    def get_queryset(self):
+        id = self.kwargs['id']
+        #print("id is{}".format(id))
+        return CourseModel.objects.all().filter(experimental_center_id__exact=id)
+
+    def get(self, request, id, *args, **kwargs):
+        try:
+            return self.list(request, *args, **kwargs)
+        except MessageException as e:
+            return Response({'error_message':str(e)}, status=404)
+        except Exception as e:
+            logger.error(traceback.print_exc())
+            return Response({}, status=404)
 
 class ExperimentalCenterCourseRetriveAPIView(generics.RetrieveAPIView):
     pass
