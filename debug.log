@@ -934,3 +934,67 @@ Watching for file changes with StatReloader
 "GET /api/v1/experimentalcenter/2/course/?current=19 HTTP/1.1" 200 13758
 "GET /api/v1/experimentalcenter/2/course/?current=20 HTTP/1.1" 200 13650
 "GET /api/v1/experimentalcenter/2/course/?current=40 HTTP/1.1" 200 8799
+/mnt/d/projects/LabCourseDispaly/API/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 9059
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2314
+"GET /api/v1/experimentalcenter/1/course/ HTTP/1.1" 200 13357
+Not Found: /api/v1/experimentalcenter/1/course/504、
+"GET /api/v1/experimentalcenter/1/course/504%E3%80%81 HTTP/1.1" 404 3424
+Not Found: /api/v1/experimentalcenter/1/course/504/
+"GET /api/v1/experimentalcenter/1/course/504/ HTTP/1.1" 404 3412
+"GET /api/v1/experimentalcenter/1/course/ HTTP/1.1" 200 13357
+/mnt/d/projects/LabCourseDispaly/API/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/1/course/ HTTP/1.1" 200 13357
+"GET /api/v1/experimentalcenter/1/course/504/ HTTP/1.1" 200 6659
+Bad Request: /api/v1/experimentalcenter/2/course/504/
+"GET /api/v1/experimentalcenter/2/course/504/ HTTP/1.1" 400 6088
+"GET /api/v1/experimentalcenter/1/course/504/ HTTP/1.1" 200 6659
+Not Found: /api/v1/experimentalcenter/course/
+"GET /api/v1/experimentalcenter/course/ HTTP/1.1" 404 3395
+"GET /api/v1/experimentalcenter/1/course/504/?format=json HTTP/1.1" 200 370
+Not Found: /api/v1/experimentalcenter/course/
+"GET /api/v1/experimentalcenter/course/?format=json HTTP/1.1" 404 3407
+Not Found: /api/v1/experimentalcenter/course/
+"GET /api/v1/experimentalcenter/course/?format=json HTTP/1.1" 404 3407
+"GET /api/v1/experimentalcenter/1/course/ HTTP/1.1" 200 13357
+"GET /api/v1/experimentalcenter/1/course/?format=json HTTP/1.1" 200 3070
+"GET /api/v1/experimentalcenter/1/course/?format=json HTTP/1.1" 200 3070
+"GET /api/v1/experimentalcenter/1/course/499/?format=json HTTP/1.1" 200 391
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 9059
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 9059
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 9059
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 9059
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 9059
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 9059
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 9059
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 9059
+"GET /api/v1/user/ HTTP/1.1" 200 7100
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 9059
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 9102
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 8908
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 8908
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 9059
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 8908

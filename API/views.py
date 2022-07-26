@@ -24,6 +24,7 @@ from MAIN.tools.xlxsutils import LabCourseXLSXReader,CourseDFProcessor
 logger = logging.getLogger(__name__)
 
 class UserAPIView(APIView):  #This class handle user information retrive and update some part of user information,such as address ,email etc
+    #pagination_class = CustomItemPagination
 
     def get(self, request, format=None):
         user_instance = request.user
@@ -55,6 +56,7 @@ class UserAPIView(APIView):  #This class handle user information retrive and upd
 class ExperimentalCenterListAPIView(generics.ListCreateAPIView):
     serializer_class = ExperimentalCenterSerializer
     permission_classes = (IsAuthenticated,)
+    pagination_class = None
 
     def get_queryset(self):
         return ExperimentalCenterModel.objects.all()
@@ -175,7 +177,44 @@ class ExperimentalCenterCourseListAPIView(generics.ListAPIView):
             return Response({}, status=404)
 
 class ExperimentalCenterCourseRetriveAPIView(generics.RetrieveAPIView):
-    pass
+    serializer_class = CourseSerializer
+    # permission_classes = (IsAuthenticated,)
+    pagination_class = CustomItemPagination
+
+    def get_queryset(self):
+        id = self.kwargs['id']
+        return CourseModel.objects.all().filter(experimental_center_id__exact=id)
+
+    def retrieve(self, request, id, cid, *args, **kwargs):
+        try:
+            instance = self.get_queryset().get(id=cid)
+            seralizer_class = self.get_serializer_class()
+            seralizer = seralizer_class(instance)
+            return Response(seralizer.data, status=200)
+        except CourseModel.DoesNotExist:
+            return Response({'error_message': '该实验条目不存在 !'}, status=400)
+        except MessageException as e:
+            return Response({'error_message':str(e)}, status=404)
+        except Exception as e:
+            logger.error(traceback.print_exc())
+            return Response({}, status=404)
 
 
+class ExperimentalCenterTodayCourseListAPIView(generics.ListAPIView):
+    serializer_class = CourseSerializer
+    # permission_classes = (IsAuthenticated,)
+    pagination_class = CustomItemPagination
 
+    def get_queryset(self):
+        id = self.kwargs['id']
+        #print("id is{}".format(id))
+        return CourseModel.objects.all().filter(experimental_center_id__exact=id)
+
+    def get(self, request, id, *args, **kwargs):
+        try:
+            return self.list(request, *args, **kwargs)
+        except MessageException as e:
+            return Response({'error_message':str(e)}, status=404)
+        except Exception as e:
+            logger.error(traceback.print_exc())
+            return Response({}, status=404)

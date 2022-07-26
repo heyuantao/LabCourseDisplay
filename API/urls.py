@@ -17,15 +17,15 @@ urlpatterns = [
     #实验中心API
     path('v1/experimentalcenter/', ExperimentalCenterListAPIView.as_view()),
     path('v1/experimentalcenter/<int:id>/', ExperimentalCenterRetrieveAPIView.as_view()),
-
     #实验中心课程文件上传API,其中ID为实验中心的主键
     path('v1/experimentalcenter/<int:id>/file/',ExperimentalCenterCourseFileUploaderView.as_view()),
-
     #实验中心课程API
     path('v1/experimentalcenter/<int:id>/course/',ExperimentalCenterCourseListAPIView.as_view()),
-    path('v1/experimentalcenter/<int:id>/course/<int:cid>',ExperimentalCenterCourseRetriveAPIView.as_view()),
+    path('v1/experimentalcenter/<int:id>/course/<int:cid>/',ExperimentalCenterCourseRetriveAPIView.as_view()),
 
 
-    #实验中心课程API
+    #实验中心课程API,访客专用API接口，用于在大屏幕上展示信息
+    #path('v1/guest/experimentalcenter/<int:id>/today/',ExperimentalCenterTodayCourseListAPIView.as_view())
+
 
 ]
