@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'LabCourseDispaly.urls'
+ROOT_URLCONF = 'LabCourseDisplay.urls'
 
 #print(BASE_DIR.as_posix() + '/media/')
 MEDIA_TEMPLATE_ROOT = BASE_DIR.as_posix() + '/media/'
@@ -74,7 +74,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'LabCourseDispaly.wsgi.application'
+WSGI_APPLICATION = 'LabCourseDisplay.wsgi.application'
 
 
 # Database
