@@ -11,7 +11,7 @@ help: ##how to use
 installenv: ##install python env and other tools   #@echo $(PATH)
 	@echo "Install Python3.6 env !"
 	@virtualenv -p /usr/bin/python3.6 ../venv
-	@pip install -r requirements.txt -i https://pypi.douban.com/simple
+	@pip install -r requirements -i https://pypi.douban.com/simple
 	@pip install nodeenv -i https://pypi.douban.com/simple
 
 

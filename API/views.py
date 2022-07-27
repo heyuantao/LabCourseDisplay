@@ -218,3 +218,10 @@ class ExperimentalCenterTodayCourseListAPIView(generics.ListAPIView):
         except Exception as e:
             logger.error(traceback.print_exc())
             return Response({}, status=404)
+
+class AdminPremissionTestView(APIView):
+    permission_classes = (IsAuthenticated,)
+
+    def get(self, request, format=None):
+        response = Response({"test_message": "Admin work !"}, status=200)
+        return response
