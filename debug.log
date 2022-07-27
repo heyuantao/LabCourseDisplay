@@ -998,3 +998,71 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 "GET /api/v1/experimentalcenter/ HTTP/1.1" 200 8908
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 8908
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+"GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2314
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /api/v1/experimentalcenter/1/todaycourse
+"GET /api/v1/experimentalcenter/1/todaycourse HTTP/1.1" 404 3619
+Not Found: /api/v1/experimentalcenter/1/todaycourse/
+"GET /api/v1/experimentalcenter/1/todaycourse/ HTTP/1.1" 404 3622
+"GET /api/v1/guest/experimentalcenter/1/todaycourse/ HTTP/1.1" 200 5790
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/guest/experimentalcenter/1/todaycourse/ HTTP/1.1" 200 5632
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /api/v1/guest/experimentalcenter/1/todaycourse/ HTTP/1.1" 200 5632
+"GET /api/v1/guest/experimentalcenter/1/todaycourse/ HTTP/1.1" 200 5632
+Watching for file changes with StatReloader
+"GET /api/v1/guest/experimentalcenter/1/todaycourse/ HTTP/1.1" 200 7135
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /api/v1/guest/experimentalcenter/1/todaycourse/ HTTP/1.1" 200 7135
+Watching for file changes with StatReloader
+"GET /api/v1/guest/experimentalcenter/1/todaycourse/ HTTP/1.1" 200 7834
+"GET /api/v1/guest/experimentalcenter/2/todaycourse/ HTTP/1.1" 200 8506
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader

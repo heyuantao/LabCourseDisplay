@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fde21338-91e7-41dd-b32c-5f94acc800bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MAIN" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -51,6 +53,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\LabCourseDispaly" />
       <recent name="D:\projects\LabCourseDispaly\MAIN" />
       <recent name="D:\projects\LabCourseDispaly\LabCourseDispaly" />
       <recent name="D:\projects\LabCourseDispaly\MAIN\tools" />
@@ -111,7 +114,8 @@
       <workItem from="1658560141070" duration="10315000" />
       <workItem from="1658675118069" duration="302000" />
       <workItem from="1658744681206" duration="5844000" />
-      <workItem from="1658800132640" duration="1428000" />
+      <workItem from="1658800132640" duration="2071000" />
+      <workItem from="1658910216234" duration="1472000" />
     </task>
     <servers />
   </component>
@@ -135,22 +139,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1658136082865" />
-    <state width="1877" height="235" key="GridCell.Tab.0.bottom" timestamp="1658801582544">
+    <state width="1877" height="235" key="GridCell.Tab.0.bottom" timestamp="1658911467934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="235" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1658801582544" />
-    <state width="1877" height="235" key="GridCell.Tab.0.center" timestamp="1658801582544">
+    <state width="1877" height="235" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1658911467934" />
+    <state width="1877" height="235" key="GridCell.Tab.0.center" timestamp="1658911467934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="235" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1658801582544" />
-    <state width="1877" height="235" key="GridCell.Tab.0.left" timestamp="1658801582544">
+    <state width="1877" height="235" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1658911467934" />
+    <state width="1877" height="235" key="GridCell.Tab.0.left" timestamp="1658911467934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="235" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1658801582544" />
-    <state width="1877" height="235" key="GridCell.Tab.0.right" timestamp="1658801582544">
+    <state width="1877" height="235" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1658911467934" />
+    <state width="1877" height="235" key="GridCell.Tab.0.right" timestamp="1658911467934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="235" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1658801582544" />
+    <state width="1877" height="235" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1658911467934" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1658759455936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -177,15 +181,6 @@
     <state x="623" y="225" width="670" height="58" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1658801197773" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/API/views.py</url>
-          <line>166</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Python.DjangoServer">
         <watch expression="id.parsers" />
