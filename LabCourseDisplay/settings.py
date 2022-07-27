@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'LabCourseDisplay.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'LabCourseDisplay',
+        'NAME': 'labcoursedisplay',
         'USER': 'root',
         'PASSWORD': '',
         # 'PASSWORD': '',

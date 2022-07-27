@@ -30,7 +30,7 @@ FROM base AS finally
 #copy code
 WORKDIR /app/LabCourseDisplay
 COPY . /app/LabCourseDisplay/
-#RUN bash /app/LabCourseDisplay/docker/install/install_web.sh
+RUN bash /app/LabCourseDisplay/docker/install/install_web.sh
 #VOLUME ['/app/LabCourseDisplay/media/avatar/','/var/log/supervisor/']
 
 #RUN locale-gen zh_CN.UTF-8
@@ -38,4 +38,5 @@ COPY . /app/LabCourseDisplay/
 #ENV LANGUAGE zh_CN.UTF-8
 #ENV LC_ALL zh_CN.UTF-8
 
-ENTRYPOINT  ["supervisord","-n"]
+#run time
+#ENTRYPOINT  ["supervisord","-n"]
