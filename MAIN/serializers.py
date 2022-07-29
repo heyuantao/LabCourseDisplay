@@ -34,14 +34,21 @@ class LoginSerializer(serializers.Serializer):
     def validate_username(self, username):
         if len(username)>20:
             raise serializers.ValidationError("用户名超过20的字符")
+        return username
 
     def validate_password(self, password):
         if len(password)>20:
             raise serializers.ValidationError("密码超过20的字符")
+        return password
 
     def validate(self, attrs):
         username= attrs['username']
         password= attrs['password']
-        user = authenticate({'username':username,'password':password})
-        if user is None or not user.is_active:
-            raise serializers.ValidationError("用户不存在或用户已被禁用")
+        #user = authenticate(**{'username':username,'password':password})
+        try:
+            userInstance= User.objects.get(username=username)
+            if not userInstance.is_active:
+                raise serializers.ValidationError("用户已被警用")
+        except User.DoesNotExist:
+            raise serializers.ValidationError("用户不存在")
+        return attrs

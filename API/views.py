@@ -6,6 +6,7 @@ from io import BytesIO
 import pandas
 from datetime import datetime
 
+from django.contrib.auth import authenticate
 from rest_framework import generics
 from rest_framework.exceptions import ValidationError
 from rest_framework.permissions import IsAuthenticated
@@ -14,11 +15,13 @@ from rest_framework.views import APIView
 from django.shortcuts import render
 
 # Create your views here.
+from rest_framework_simplejwt.tokens import RefreshToken
+
 from API.serializers import ExperimentalCenterSerializer, CourseSerializer
 from MAIN.exceptions import MessageException
 from MAIN.models import ExperimentalCenterModel, CourseModel
 from MAIN.paginations import CustomItemPagination
-from MAIN.serializers import UserSerializer
+from MAIN.serializers import UserSerializer, LoginSerializer
 
 from MAIN.tools.xlxsutils import LabCourseXLSXReader,CourseDFProcessor
 
@@ -230,14 +233,20 @@ class AdminPremissionTestView(APIView):
 
 
 class LoginAPIView(APIView):
-    serializer_class = CourseSerializer
+    serializer_class = LoginSerializer
+
+    def get_tokens_for_user(self, user):
+        refresh = RefreshToken.for_user(user)
+        return {'refresh': str(refresh),'access': str(refresh.access_token),}
 
     def post(self, request, format=None):
         try:
-            seralizer_class = self.get_serializer_class()
+            seralizer_class = self.serializer_class
             seralizer = seralizer_class(data=request.data)
             if not seralizer.is_valid(raise_exception=True):  # raise_exception=True
                 raise MessageException('数据出错')
+            userInstance = authenticate(**seralizer.data)
+            return Response(self.get_tokens_for_user(userInstance), status=200)
         except ValidationError as e:
             logger.error(traceback.print_exc())
             first_validate_error_message = list(e.detail.values())[0][0]
