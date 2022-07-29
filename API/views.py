@@ -7,6 +7,7 @@ import pandas
 from datetime import datetime
 
 from rest_framework import generics
+from rest_framework.exceptions import ValidationError
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
@@ -219,9 +220,30 @@ class ExperimentalCenterTodayCourseListAPIView(generics.ListAPIView):
             logger.error(traceback.print_exc())
             return Response({}, status=404)
 
+#该视图仅用于接口权限的测试
 class AdminPremissionTestView(APIView):
     permission_classes = (IsAuthenticated,)
 
     def get(self, request, format=None):
         response = Response({"test_message": "Admin work !"}, status=200)
         return response
+
+
+class LoginAPIView(APIView):
+    serializer_class = CourseSerializer
+
+    def post(self, request, format=None):
+        try:
+            seralizer_class = self.get_serializer_class()
+            seralizer = seralizer_class(data=request.data)
+            if not seralizer.is_valid(raise_exception=True):  # raise_exception=True
+                raise MessageException('数据出错')
+        except ValidationError as e:
+            logger.error(traceback.print_exc())
+            first_validate_error_message = list(e.detail.values())[0][0]
+            return Response({'error_message': first_validate_error_message}, status=400)
+        except MessageException as e:
+            return Response({'error_message': str(e)}, status=400)
+        except Exception as e:
+            logger.error(traceback.print_exc())
+            return Response({'error_message':'创建出错'},status=400)

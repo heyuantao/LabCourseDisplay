@@ -1146,3 +1146,12 @@ Unauthorized: /api/v1/token/
 "POST /api/v1/token/ HTTP/1.1" 200 438
 Unauthorized: /api/v1/token/
 "POST /api/v1/token/ HTTP/1.1" 401 132
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/urls.py changed, reloading.
+Watching for file changes with StatReloader
