@@ -18,44 +18,14 @@ class SideBar extends React.Component {
         let that = this;
         hashHistory.listen( (location) =>  {
             if(location.action==="PUSH"){
-                if(location.pathname.includes("/examination")){
-                    if(location.pathname.includes("/enrollment")){
-                        that.setState({selectedKeys:["11"]});
-                        this.props.changeLocation(fromJS(["考试管理","考试安排","报名情况"]));
-                        return;
-                    }
-                    that.setState({selectedKeys:["11"]});
-                    this.props.changeLocation(fromJS(["考试管理","考试安排"]));
-                    return;
-                }
-                if(location.pathname.includes("/userenrollment")){
-                    that.setState({selectedKeys:['12']});
-                    this.props.changeLocation(fromJS(["考试管理","报名信息"]));
-                    return;
-                }
-                if(location.pathname.includes("/externalexam")){
-                    that.setState({selectedKeys:['22']});
-                    this.props.changeLocation(fromJS(["成绩管理","外部考试"]));
-                    return;
-                }
-                if(location.pathname.includes("/account")){
-                    that.setState({selectedKeys:['31']});
-                    this.props.changeLocation(fromJS(["账号管理","考生账号"]));
+                if(location.pathname.includes("/course")){
+                    that.setState({selectedKeys:['11']});
+                    this.props.changeLocation(fromJS(["课程管理","课程列表"]));
                     return;
                 }
                 if(location.pathname.includes("/personal")){
-                    that.setState({selectedKeys:["41"]});
+                    that.setState({selectedKeys:["21"]});
                     this.props.changeLocation(fromJS(["个人管理","密码修改"]));
-                    return;
-                }
-                if(location.pathname.includes("/examcategory")){
-                    that.setState({selectedKeys:["51"]});
-                    this.props.changeLocation(fromJS(["系统设置","考试类别"]));
-                    return;
-                }
-                if(location.pathname.includes("/managercategory")){
-                    that.setState({selectedKeys:["52"]});
-                    this.props.changeLocation(fromJS(["系统设置","管理员分类"]));
                     return;
                 }
             }
@@ -76,7 +46,7 @@ class SideBar extends React.Component {
                       selectedKeys={this.state.selectedKeys} mode="inline">
                     <SubMenu key="sub1" title={<span><Icon type="pie-chart" /><span>课程管理</span></span>}>
                         <Menu.Item key="11">
-                            <Link to="/examination">
+                            <Link to="/course">
                                 <Icon type="schedule" /><span>课程列表</span>
                             </Link>
                         </Menu.Item>

@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fde21338-91e7-41dd-b32c-5f94acc800bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/media/manager/src/pages/PersonalPage/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/manager/src/pages/AppLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/pages/AppLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/manager/src/pages/common/LocationIndicator.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/pages/common/LocationIndicator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/media/manager/src/pages/common/SideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/pages/common/SideBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/manager/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/store/reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="jsx.switch.disabled" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/media/manager/src/pages/common" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/media/manager/src/pages" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -52,9 +56,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\LabCourseDispaly\media\manager\src\pages" />
       <recent name="D:\projects\LabCourseDispaly\media\manager\src\pages\common" />
       <recent name="D:\projects\LabCourseDispaly\media\manager\src\pages\CoursePage" />
-      <recent name="D:\projects\LabCourseDispaly\media\manager\src\pages" />
       <recent name="D:\projects\LabCourseDispaly\media\manager\src" />
       <recent name="D:\projects\LabCourseDispaly" />
     </key>
@@ -118,7 +122,7 @@
       <workItem from="1658910216234" duration="11506000" />
       <workItem from="1659053630335" duration="2779000" />
       <workItem from="1659062544206" duration="2869000" />
-      <workItem from="1659225309688" duration="6836000" />
+      <workItem from="1659225309688" duration="8740000" />
     </task>
     <servers />
   </component>

@@ -4,17 +4,14 @@ import { connect } from "react-redux";
 
 class LocationIndicator extends React.Component{
     render() {
-        //const path = this.props.location.get("path");
+        const path = this.props.location.get("path");
         return (
             <Breadcrumb style={{margin:"16px 13px"}}>
-                {/*
+                {
                     path.map((item,index) =>{
                         return(<Breadcrumb.Item key={index}>{item}</Breadcrumb.Item>)
                     })
-                */}
-                <div>
-                    <Breadcrumb.Item>文件</Breadcrumb.Item>
-                </div>
+                }
             </Breadcrumb>
         )
     }
