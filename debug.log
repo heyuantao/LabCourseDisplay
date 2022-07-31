@@ -1326,3 +1326,11 @@ Method Not Allowed: /api/v1/premission/
 "GET /api/v1/user/ HTTP/1.1" 200 55
 /mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
 Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.staging changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.staging changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.staging changed, reloading.
+Watching for file changes with StatReloader
