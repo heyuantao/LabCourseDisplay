@@ -1,26 +1,27 @@
 import React from "react";
-import {Col, Row, Button} from "antd";
-//import FileList from "./file_list";
-//import FileAdd from "./file_add";
-//import FileEdit from "./file_edit";
+import {Col, Row, Button, Layout} from "antd";
+import SideBar from "../common/SideBar";
+import PageHeader from "../common/PageHeader";
+import LocationIndicator from "../common/LocationIndicator";
+import PageFooter from "../common/PageFooter";
+import CourseSubPage from "./CourseSubPage";
+const { Content} = Layout;
 
 class CoursePage extends React.Component{
-    constructor(props) {
-        super(props);
-        this.state= {mode:'list',id:0};
-    }
-    handleChangeModeAndInstanceId =(mode='list',id=0)=>{
-        this.setState({mode:mode,id:id});
-    }
-
-    render() {
-        return (
-            <div style={{ padding: 24, background: "#fff"}}>
-                <Row>
-                    <h3>Course upload and display page</h3>
-                </Row>
-            </div>
-        )
+    render(){
+        return(
+             <Layout style={{ minHeight: "100vh" }}>
+                    <SideBar></SideBar>
+                    <Layout>
+                        <PageHeader></PageHeader>
+                        <LocationIndicator></LocationIndicator>
+                        <Content style={{ margin: "0 10px" }}>
+                            <CourseSubPage></CourseSubPage>
+                        </Content>
+                        <PageFooter></PageFooter>
+                    </Layout>
+                </Layout>
+        );
     }
 }
 

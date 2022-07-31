@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fde21338-91e7-41dd-b32c-5f94acc800bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/manager/src/pages/PersonalPage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/manager/src/pages/CoursePage/CourseSubPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/manager/src/pages/LoginPage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/manager/src/pages/PersonalPage/PersonalSubPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/manager/src/pages/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/pages/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/media/manager/src/pages/AppLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/pages/AppLayout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/manager/src/pages/common/LocationIndicator.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/pages/common/LocationIndicator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/manager/src/pages/common/SideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/pages/common/SideBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/manager/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/store/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/manager/src/pages/CoursePage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/pages/CoursePage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/manager/src/pages/PersonalPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/pages/PersonalPage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/manager/src/pages/common/PageHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/pages/common/PageHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/manager/src/setupProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/setupProxy.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +127,7 @@
       <workItem from="1658910216234" duration="11506000" />
       <workItem from="1659053630335" duration="2779000" />
       <workItem from="1659062544206" duration="2869000" />
-      <workItem from="1659225309688" duration="8740000" />
+      <workItem from="1659225309688" duration="12144000" />
     </task>
     <servers />
   </component>
@@ -146,22 +151,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1658136082865" />
-    <state width="1877" height="235" key="GridCell.Tab.0.bottom" timestamp="1659226262133">
+    <state width="1877" height="235" key="GridCell.Tab.0.bottom" timestamp="1659277440958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="235" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1659226262133" />
-    <state width="1877" height="235" key="GridCell.Tab.0.center" timestamp="1659226262133">
+    <state width="1877" height="235" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1659277440958" />
+    <state width="1877" height="235" key="GridCell.Tab.0.center" timestamp="1659277440957">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="235" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1659226262133" />
-    <state width="1877" height="235" key="GridCell.Tab.0.left" timestamp="1659226262133">
+    <state width="1877" height="235" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1659277440957" />
+    <state width="1877" height="235" key="GridCell.Tab.0.left" timestamp="1659277440957">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="235" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1659226262133" />
-    <state width="1877" height="235" key="GridCell.Tab.0.right" timestamp="1659226262133">
+    <state width="1877" height="235" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1659277440957" />
+    <state width="1877" height="235" key="GridCell.Tab.0.right" timestamp="1659277440957">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="235" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1659226262133" />
+    <state width="1877" height="235" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1659277440957" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1659226075934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

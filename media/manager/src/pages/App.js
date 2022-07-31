@@ -10,17 +10,9 @@ const { Content} = Layout;
 export default class App extends React.Component{
     render(){
         return(
-             <Layout style={{ minHeight: "100vh" }}>
-                    <SideBar></SideBar>
-                    <Layout>
-                        <PageHeader></PageHeader>
-                        <LocationIndicator></LocationIndicator>
-                        <Content style={{ margin: "0 10px" }}>
-                            {this.props.children}
-                        </Content>
-                        <PageFooter></PageFooter>
-                    </Layout>
-                </Layout>
+            <div>
+                {this.props.children}
+            </div>
         );
     }
 }
