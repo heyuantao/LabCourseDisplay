@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fde21338-91e7-41dd-b32c-5f94acc800bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/manager/src/Settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/manager/src/pages/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/manager/src/pages/AppLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/manager/src/pages/CoursePage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/manager/src/pages/common/LocationIndicator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/manager/src/pages/common/PageFooter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/manager/src/pages/common/PageHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/manager/src/pages/common/SideBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/manager/src/pages/common/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/manager/src/pages/common/store/LocationIndicatorActionCreator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/manager/src/pages/common/store/LocationIndicatorReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/manager/src/pages/common/store/UserActionCreator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/manager/src/pages/common/store/UserReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/manager/src/pages/common/store/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/manager/src/setupProxy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/manager/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/manager/src/store/reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/manager/src/pages/common/SideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/pages/common/SideBar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +118,7 @@
       <workItem from="1658910216234" duration="11506000" />
       <workItem from="1659053630335" duration="2779000" />
       <workItem from="1659062544206" duration="2869000" />
-      <workItem from="1659225309688" duration="5869000" />
+      <workItem from="1659225309688" duration="6836000" />
     </task>
     <servers />
   </component>

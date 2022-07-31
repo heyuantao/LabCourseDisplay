@@ -70,40 +70,19 @@ class SideBar extends React.Component {
         return (
             <Sider width="230">
                 <div className="logo" style={{textAlign:"center"}} >
-                    <h1 style={{color:"white"}}>课程数据管理</h1>
+                    <h1 style={{color:"white"}}>实验室课程展示</h1>
                 </div>
                 <Menu theme="dark" defaultSelectedKeys={["1"]} defaultOpenKeys={["sub1"]}
                       selectedKeys={this.state.selectedKeys} mode="inline">
-                    <SubMenu key="sub1" title={<span><Icon type="pie-chart" /><span>考试管理</span></span>}>
+                    <SubMenu key="sub1" title={<span><Icon type="pie-chart" /><span>课程管理</span></span>}>
                         <Menu.Item key="11">
                             <Link to="/examination">
-                                <Icon type="schedule" /><span>考试安排</span>
-                            </Link>
-                        </Menu.Item>
-                        <Menu.Item key="12">
-                            <Link to="/userenrollment">
-                                <Icon type="solution" />
-                                <span>报名信息</span>
+                                <Icon type="schedule" /><span>课程列表</span>
                             </Link>
                         </Menu.Item>
                     </SubMenu>
-                    <SubMenu key="sub2" title={<span><Icon type="contacts" /><span>成绩管理</span></span>}>
-                        <Menu.Item key="22">
-                            <Link to="/externalexam">
-                                <Icon type="import" /><span>考试数据（导入）</span>
-                            </Link>
-                        </Menu.Item>
-                    </SubMenu>
-                    <SubMenu key="sub3" title={<span><Icon type="contacts" /><span>账号管理</span></span>}>
-                        <Menu.Item key="31">
-                            <Link to="/account">
-                                <Icon type="user" />
-                                <span>考生账号</span>
-                            </Link>
-                        </Menu.Item>
-                    </SubMenu>
-                    <SubMenu key="sub4" title={<span><Icon type="setting" /><span>个人管理</span></span>}>
-                        <Menu.Item key="41">
+                    <SubMenu key="sub4" title={<span><Icon type="setting" /><span>系统设置</span></span>}>
+                        <Menu.Item key="21">
                             <Link to="/personal">
                                 <Icon type="key" /><span>密码修改</span>
                             </Link>
