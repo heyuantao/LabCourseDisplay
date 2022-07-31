@@ -1277,3 +1277,52 @@ Bad Request: /api/v1/login/
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 "POST /api/v1/login/ HTTP/1.1" 200 7782
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 302 0
+"GET /main HTTP/1.1" 301 0
+"GET /main/ HTTP/1.1" 200 33
+Not Found: /api/v1/test
+"GET /api/v1/test HTTP/1.1" 404 3874
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2314
+Unauthorized: /api/v1/premission/
+"GET /api/v1/premission/ HTTP/1.1" 401 5250
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+"GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+Unauthorized: /api/v1/premission/
+"POST /api/v1/premission/ HTTP/1.1" 401 92
+Unauthorized: /api/v1/login/
+"GET /api/v1/login/ HTTP/1.1" 401 242
+Unauthorized: /api/v1/login/
+"GET /api/v1/login/ HTTP/1.1" 401 242
+Unauthorized: /api/v1/login/
+"POST /api/v1/login/ HTTP/1.1" 401 242
+Unauthorized: /api/v1/login/
+"POST /api/v1/login/ HTTP/1.1" 401 242
+Method Not Allowed: /api/v1/login/
+"GET /api/v1/login/ HTTP/1.1" 405 7455
+"POST /api/v1/login/ HTTP/1.1" 200 438
+Bad Request: /api/v1/login/
+"POST /api/v1/login/ HTTP/1.1" 400 32
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Bad Request: /api/v1/login/
+"POST /api/v1/login/ HTTP/1.1" 400 32
+Bad Request: /api/v1/login/
+"POST /api/v1/login/ HTTP/1.1" 400 35
+"POST /api/v1/login/ HTTP/1.1" 200 438
+Method Not Allowed: /api/v1/premission/
+"POST /api/v1/premission/ HTTP/1.1" 405 98
+"GET /api/v1/premission/ HTTP/1.1" 200 31
+"GET /api/v1/user/ HTTP/1.1" 200 55
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader

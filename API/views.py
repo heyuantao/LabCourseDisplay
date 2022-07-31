@@ -245,7 +245,10 @@ class LoginAPIView(APIView):
             seralizer = seralizer_class(data=request.data)
             if not seralizer.is_valid(raise_exception=True):  # raise_exception=True
                 raise MessageException('数据出错')
+            #此时已经完成了用户名有效性的检查，如果调用authenticate之后得到的是None，则说明密码错误
             userInstance = authenticate(**seralizer.data)
+            if userInstance is None:
+                raise MessageException('密码错误')
             return Response(self.get_tokens_for_user(userInstance), status=200)
         except ValidationError as e:
             logger.error(traceback.print_exc())
