@@ -13,7 +13,6 @@ export default class AppLayout extends React.Component{
             <Router history={hashHistory} >
                 <Route path="/" component={App}>
                     <IndexRedirect to="/course" ></IndexRedirect>
-                    <Route path="/login" component={LoginPage} onEnter={this.handleOnEnter}></Route>
                     <Route path="/course" component={CoursePage} onEnter={this.handleOnEnter}></Route>
                     <Route path="/personal" component={PersonalPage} onEnter={this.handleOnEnter}></Route>
                 </Route>

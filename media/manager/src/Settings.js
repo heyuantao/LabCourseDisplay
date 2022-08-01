@@ -1,12 +1,13 @@
 import axios from "axios";
 import { message } from 'antd';
+import Auth from "./pages/common/Auth";
 
 let baseUrl=""
 //let csrftoken=cookie.load('csrftoken');
 let req=axios.create({
     baseURL:baseUrl,
     headers: {
-        //'X-CSRFToken': csrftoken,
+        Authorization: "Bearer "+Auth.getTestJWT(),
         'Content-Type': 'application/json;charset=UTF-8',
         "Accept": "application/json"
     }
@@ -38,15 +39,12 @@ req.interceptors.response.use(
 
 export default{
     request:req,
-
     loginAPIURL:"/api/v1/login/",
     //logoutAPIURL:"/api/v1/logout/",
     //registrationAPIURL:"/api/v1/registration/",
     userAPIURL:"/api/v1/user/",
 
-    //provinceAPIURL:"/api/v1/settings/province/",
-    //examTypeAPIURL:"/api/v1/settings/category/",
-    //ethnicAPIURL:"/api/v1/settings/ethnic/",
+
 }
 
 
