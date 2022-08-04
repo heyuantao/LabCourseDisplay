@@ -19,7 +19,7 @@ urlpatterns = [
     #rest jwt 接口（测试用）
     #path('v1/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     #path('v1/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
-    #path('v1/token/verify/', TokenVerifyView.as_view(), name='token_verify'),
+    path('v1/token/verify/', TokenVerifyView.as_view(), name='token_verify'),
     path('v1/premission/',AdminPremissionTestView.as_view()),
 
     #作者自己定义的login jwt接口

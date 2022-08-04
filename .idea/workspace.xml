@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fde21338-91e7-41dd-b32c-5f94acc800bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/manager/src/pages/common/Auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MAIN/jwt_authentication.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LabCourseDisplay/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/LabCourseDisplay/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/manager/src/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/Settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/manager/src/pages/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/pages/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/manager/src/pages/AppLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/pages/AppLayout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/manager/src/pages/CoursePage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/pages/CoursePage/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/manager/src/pages/PersonalPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/pages/PersonalPage/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -126,7 +122,11 @@
       <workItem from="1659053630335" duration="2779000" />
       <workItem from="1659062544206" duration="2869000" />
       <workItem from="1659225309688" duration="12207000" />
-      <workItem from="1659308716848" duration="5106000" />
+      <workItem from="1659308716848" duration="7832000" />
+      <workItem from="1659404938565" duration="22000" />
+      <workItem from="1659405334119" duration="497000" />
+      <workItem from="1659597514984" duration="408000" />
+      <workItem from="1659601499236" duration="1876000" />
     </task>
     <servers />
   </component>
@@ -138,34 +138,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="668" y="125" key="#LabCourseDispaly/0.0.1920.1040@0.0.1920.1040" timestamp="1658135921038" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1658926310252">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1659405377870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1658926310252" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1659405377870" />
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1658754984283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1658754984283" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1658136082865">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1659404948818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1658136082865" />
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1659316366427">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1659404948818" />
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1659609222772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1659316366427" />
-    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1659316366426">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1659609222772" />
+    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1659609222772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1659316366426" />
-    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1659316366426">
+    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1659609222772" />
+    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1659609222771">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1659316366426" />
-    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1659316366427">
+    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1659609222771" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1659609222772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1659316366427" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1659609222772" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1659280052265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

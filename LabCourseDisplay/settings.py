@@ -173,7 +173,9 @@ LOGGING = {
 }
 
 REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': ('rest_framework_simplejwt.authentication.JWTAuthentication',),
+    #'DEFAULT_AUTHENTICATION_CLASSES': ('rest_framework_simplejwt.authentication.JWTAuthentication',),
+    #如下为自己定义的JWT认证类，用户核对用户携带的JWT是否超时或者有效，该类重载了默认的rest_framework_simplejwt.authentication.JWTAuthentication，并重写了get_validated_token方法
+    'DEFAULT_AUTHENTICATION_CLASSES': ('MAIN.jwt_authentication.CustomJWTAuthentication',),
     'EXCEPTION_HANDLER': 'LabCourseDisplay.rest_framework_utils.rest_framework_custion_exception_handler',
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
     'PAGE_SIZE': 8,
