@@ -2,7 +2,7 @@ import React from "react";
 import {fromJS} from "immutable";
 import {Col, Row, Button, Table} from "antd";
 
-class CourseListPage extends React.Component{
+class CenterListPage extends React.Component{
     constructor(props) {
         super(props);
         this.state={
@@ -56,4 +56,4 @@ class CourseListPage extends React.Component{
     }
 }
 
-export default CourseListPage
+export default CenterListPage
