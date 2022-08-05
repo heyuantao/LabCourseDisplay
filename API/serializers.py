@@ -9,6 +9,7 @@ class ExperimentalCenterSerializer(serializers.Serializer):
     def to_representation(self, instance):
         ret = super().to_representation(instance)
         ret['id'] = instance.id
+        ret['count'] = instance.courses.count()
         return ret
 
     def update(self, instance, validated_data):

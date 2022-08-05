@@ -1770,3 +1770,97 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 /mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CenterPage changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 5338
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2314
+/mnt/d/projects/LabCourseDispaly/media/manager/src/Settings.js changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CenterPage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CenterPage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CenterPage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CenterPage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CenterPage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CenterPage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/common changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CenterPage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CenterPage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CenterPage changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 210
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 210
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/common changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 210
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 210
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 210
+Not Found: /api/v1/admin
+"GET /api/v1/admin HTTP/1.1" 404 4065
+Method Not Allowed: /api/v1/login/
+"GET /api/v1/login/ HTTP/1.1" 405 7455
+"POST /api/v1/login/ HTTP/1.1" 200 7782
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/common changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 90
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 90
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 90
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/common changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 90
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CenterPage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 90
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CenterPage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 90
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CenterPage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 90
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CenterPage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CenterPage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CenterPage changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CenterPage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CenterPage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CenterPage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CenterPage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CenterPage changed, reloading.
+Watching for file changes with StatReloader

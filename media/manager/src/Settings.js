@@ -44,6 +44,7 @@ export default{
     //registrationAPIURL:"/api/v1/registration/",
     userAPIURL:"/api/v1/user/",
 
+    centerAPIURL:"/api/v1/experimentalcenter/",
 
 }
 

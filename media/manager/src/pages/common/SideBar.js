@@ -18,9 +18,9 @@ class SideBar extends React.Component {
         let that = this;
         hashHistory.listen( (location) =>  {
             if(location.action==="PUSH"){
-                if(location.pathname.includes("/course")){
+                if(location.pathname.includes("/center")){
                     that.setState({selectedKeys:['11']});
-                    this.props.changeLocation(fromJS(["课程管理","课程列表"]));
+                    this.props.changeLocation(fromJS(["课程管理","实验中心"]));
                     return;
                 }
                 if(location.pathname.includes("/personal")){
@@ -46,8 +46,8 @@ class SideBar extends React.Component {
                       selectedKeys={this.state.selectedKeys} mode="inline">
                     <SubMenu key="sub1" title={<span><Icon type="pie-chart" /><span>课程管理</span></span>}>
                         <Menu.Item key="11">
-                            <Link to="/course">
-                                <Icon type="schedule" /><span>课程列表</span>
+                            <Link to="/center">
+                                <Icon type="schedule" /><span>实验中心</span>
                             </Link>
                         </Menu.Item>
                     </SubMenu>
