@@ -3,6 +3,8 @@ import {fromJS} from "immutable";
 import {Col, Row, Button, Table} from "antd";
 import * as LocationActionCreator from "../common/store/LocationIndicatorActionCreator";
 import {connect} from "react-redux";
+import Settings from "../../Settings";
+const req = Settings.request;
 
 class CourseListPage extends React.Component{
     constructor(props) {
@@ -22,10 +24,24 @@ class CourseListPage extends React.Component{
         this.props.changeLocation(fromJS(["课程管理","实验中心","实验中心课程"]));
         this.fetchTableData()
     }
+    handleTableChange(pagination, filters, sorter){
+        let newPagination=fromJS(pagination)
+        this.setState({pagination:newPagination},()=>{this.fetchTableData()})
+    }
     fetchTableData() {
         const center_id = this.props.center_id;
-        console.log("Fetch Data !");
-        console.log(center_id);
+        let params = this.state.pagination.toJS();
+        const url = Settings.centerAPIURL+"/"+center_id+"/"+"course";
+        this.setState({fetching:true})
+        req.get(url,{params:params}).then((response)=>{
+            let tableData = fromJS(response.data.items);
+            let paginationData = fromJS(response.data.pagination);
+            this.setState({pagination:paginationData});
+            this.setState({ tableData: tableData });
+            this.setState({fetching:false});
+        }).catch((error)=>{
+            this.setState({fetching:true})
+        })
     }
     tableColumnFormat() {
         const tableColumn = [
@@ -49,7 +65,7 @@ class CourseListPage extends React.Component{
                     <Col span={24}>
                         <div style={{ marginBottom: "15px" }}></div>
                         <Table dataSource={this.state.tableData.toJS()} rowKey="id" pagination={this.state.pagination.toJS()}
-                            //onChange={(pagination, filters, sorter)=>{this.handleTableChange(pagination, filters, sorter)}}
+                            onChange={(pagination, filters, sorter)=>{this.handleTableChange(pagination, filters, sorter)}}
                             //   expandedRowRender={record => <p style={{ margin: 0 }}>备注:{record.comments} 考生编号:{record.examinee_id}</p>}
                             columns={this.tableColumnFormat()} loading={this.state.fetching}>
                         </Table>

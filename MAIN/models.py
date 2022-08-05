@@ -14,7 +14,7 @@ class ExperimentalCenterModel(models.Model):
 
 class CourseModel(models.Model):
     class Meta:
-        ordering = ['-id']
+        ordering = ['course_date']
 
     ##########################################################################################################################
     course_date = models.DateField()                           #课程的上课时间；例如XX年XX月XX日

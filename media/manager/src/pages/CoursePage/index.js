@@ -8,6 +8,7 @@ class CoursePage extends React.Component{
         super(props);
         this.state = {
             center_id: props.params.cid,
+            mode: "list",
         }
 
     }
@@ -19,6 +20,9 @@ class CoursePage extends React.Component{
     render() {
         return (
             <div style={{ padding: 24, background: "#fff" }}>
+                <div className={this.state.mode === "list" ? "" : "hidden"}>
+
+                </div>
                 <CourseListPage center_id={this.state.center_id}></CourseListPage>
             </div>
         )

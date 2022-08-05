@@ -10,7 +10,7 @@ function getJWT(){
 }
 
 function getTestJWT(){
-    const token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjU5NzAxNjIyLCJqdGkiOiI3Mjk2NjVhMjAzYjc0NmVjYTczZjBiMjcwMTc1NDllOSIsInVzZXJfaWQiOjF9._HqSgtmZ_1o8p9cB1cpe5NGGZydb5kSPNyjOfKLUgA4";
+    const token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjU5NzI0NTE4LCJqdGkiOiI5ZmM2MWYxYjkyZjQ0YmJjYTAzYjRiZWQzMjJmZGIwNCIsInVzZXJfaWQiOjF9.BEqef749B4Ylc1Go3GXEx9NTVSdsr5bqvEZs1VsyjYI";
     return token;
 }
 
