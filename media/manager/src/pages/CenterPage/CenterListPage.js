@@ -3,6 +3,8 @@ import {fromJS} from "immutable";
 import {hashHistory, Link} from "react-router";
 import {Col, Row, Button, Table} from "antd";
 import Settings from "../../Settings";
+import * as LocationActionCreator from "../common/store/LocationIndicatorActionCreator";
+import {connect} from "react-redux";
 const req = Settings.request;
 
 class CenterListPage extends React.Component{
@@ -15,6 +17,7 @@ class CenterListPage extends React.Component{
 
     }
     componentDidMount() {
+
         this.fetchTableData()
     }
     fetchTableData() {
@@ -34,7 +37,7 @@ class CenterListPage extends React.Component{
                 title: "中心课程查看", key: "action",
                 render: (text, record) =>(
                     <div>
-                        <Link to={"/center/" + record.id + "/course/"}>点击查看</Link>
+                        <Link to={"/center/" + record.id + "/courses/"}>点击查看</Link>
                     </div>
                 )
             },
@@ -58,5 +61,6 @@ class CenterListPage extends React.Component{
         )
     }
 }
+
 
 export default CenterListPage

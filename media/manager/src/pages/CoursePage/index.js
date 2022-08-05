@@ -6,11 +6,9 @@ import CourseListPage from "./CourseListPage";
 class CoursePage extends React.Component{
     constructor(props) {
         super(props);
-        this.state= {
-            mode:'list',
-            id:0,
-            center_id:1,
-        };
+        this.state = {
+            center_id: props.params.cid,
+        }
 
     }
     handleChangeModeAndInstanceId =(mode='list',id=0)=>{

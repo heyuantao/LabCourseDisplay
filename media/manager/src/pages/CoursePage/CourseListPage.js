@@ -1,6 +1,8 @@
 import React from "react";
 import {fromJS} from "immutable";
 import {Col, Row, Button, Table} from "antd";
+import * as LocationActionCreator from "../common/store/LocationIndicatorActionCreator";
+import {connect} from "react-redux";
 
 class CourseListPage extends React.Component{
     constructor(props) {
@@ -17,11 +19,13 @@ class CourseListPage extends React.Component{
     //    this.fetchTableData();
     //}
     componentDidMount() {
+        this.props.changeLocation(fromJS(["课程管理","实验中心","实验中心课程"]));
         this.fetchTableData()
     }
     fetchTableData() {
         const center_id = this.props.center_id;
         console.log("Fetch Data !");
+        console.log(center_id);
     }
     tableColumnFormat() {
         const tableColumn = [
@@ -56,4 +60,17 @@ class CourseListPage extends React.Component{
     }
 }
 
-export default CourseListPage
+const mapStoreToProps = (store) => {
+    return {
+    }
+}
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        changeLocation(locationList){
+            dispatch(LocationActionCreator.changeLocation(locationList))
+        }
+    }
+}
+
+export default connect(mapStoreToProps,mapDispatchToProps)(CourseListPage)
