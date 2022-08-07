@@ -2218,3 +2218,225 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 "GET /api/v1/experimentalcenter/2/course?current=1&pageSize=8&total=314 HTTP/1.1" 301 0
 "GET /api/v1/experimentalcenter/2/course/?current=1&pageSize=8&total=314 HTTP/1.1" 200 3075
+Unauthorized: /api/v1/experimentalcenter/2/course/
+"GET /api/v1/experimentalcenter/2/course/?total=314&pageSize=8&current=2 HTTP/1.1" 401 210
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/experimentalcenter/2/course/
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 401 210
+"POST /api/v1/login/ HTTP/1.1" 200 7782
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 3075
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/common changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 3075
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/experimentalcenter/1/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 3278
+"GET /api/v1/experimentalcenter/1/course?total=168&pageSize=8&current=2 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/1/course/?total=168&pageSize=8&current=2 HTTP/1.1" 200 3183
+"GET /api/v1/experimentalcenter/1/course?total=168&pageSize=8&current=3 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/1/course/?total=168&pageSize=8&current=3 HTTP/1.1" 200 3221
+"GET /api/v1/experimentalcenter/1/course?total=168&pageSize=8&current=4 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/1/course/?total=168&pageSize=8&current=4 HTTP/1.1" 200 3219
+"GET /api/v1/experimentalcenter/1/course?total=168&pageSize=8&current=5 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/1/course/?total=168&pageSize=8&current=5 HTTP/1.1" 200 3240
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 3075
+"GET /api/v1/experimentalcenter/2/course/?total=314&pageSize=8&current=2 HTTP/1.1" 200 3090
+"GET /api/v1/experimentalcenter/2/course/?total=314&pageSize=8&current=3 HTTP/1.1" 200 3071
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 200 55
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 5338
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/experimentalcenter/1/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 3278
+"GET /api/v1/experimentalcenter/1/course?current=1&pageSize=8&total=168 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/1/course/?current=1&pageSize=8&total=168 HTTP/1.1" 200 3278
+"GET /api/v1/experimentalcenter/1/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 3278
+Bad Request: /api/v1/experimentalcenter/1/file/
+"POST /api/v1/experimentalcenter/1/file/ HTTP/1.1" 400 32
+Watching for file changes with StatReloader
+"POST /api/v1/experimentalcenter/1/file/ HTTP/1.1" 200 2
+"GET /api/v1/experimentalcenter/1/course?current=1&pageSize=8&total=168 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/1/course/?current=1&pageSize=8&total=168 HTTP/1.1" 200 2991
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 3075
+"POST /api/v1/experimentalcenter/2/file/ HTTP/1.1" 200 2
+"GET /api/v1/experimentalcenter/2/course?current=1&pageSize=8&total=314 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?current=1&pageSize=8&total=314 HTTP/1.1" 200 2967
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 2967
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course?current=1&pageSize=8&total=381 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?current=1&pageSize=8&total=381 HTTP/1.1" 200 2967
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 2967
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 2967
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 2967
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 2967
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 2967
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/v1/experimentalcenter/2/file/
+"POST /api/v1/experimentalcenter/2/file/ HTTP/1.1" 400 32
+"GET /api/v1/experimentalcenter/2/course?current=1&pageSize=8&total=381 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?current=1&pageSize=8&total=381 HTTP/1.1" 200 62
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 62
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 62
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 62
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 62
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 62
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 62
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 62
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 62
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 62
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 62
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 112
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 62
+Bad Request: /api/v1/experimentalcenter/2/file/
+"POST /api/v1/experimentalcenter/2/file/ HTTP/1.1" 400 32
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 62
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 62
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 62
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 62
+"POST /api/v1/experimentalcenter/2/file/ HTTP/1.1" 200 2
+"GET /api/v1/experimentalcenter/2/course?current=1&pageSize=8&total=0 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?current=1&pageSize=8&total=0 HTTP/1.1" 200 2967
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 2967
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/v1/experimentalcenter/2/file/ HTTP/1.1" 200 2
+"GET /api/v1/experimentalcenter/2/course?current=1&pageSize=8&total=381 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?current=1&pageSize=8&total=381 HTTP/1.1" 200 2967
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 2967
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/v1/experimentalcenter/2/file/ HTTP/1.1" 200 2
+"GET /api/v1/experimentalcenter/2/course?current=1&pageSize=8&total=381 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?current=1&pageSize=8&total=381 HTTP/1.1" 200 2967
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 2967
+"POST /api/v1/experimentalcenter/2/file/ HTTP/1.1" 200 2
+"GET /api/v1/experimentalcenter/2/course/?current=1&pageSize=8&total=381 HTTP/1.1" 200 2967
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 2967
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 2967
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 2967
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 2967
+Bad Request: /api/v1/experimentalcenter/2/file/
+"POST /api/v1/experimentalcenter/2/file/ HTTP/1.1" 400 32
+"POST /api/v1/experimentalcenter/2/file/ HTTP/1.1" 200 2
+"GET /api/v1/experimentalcenter/2/course/?current=1&pageSize=8&total=381 HTTP/1.1" 200 2967
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 2967
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 2967
+"GET /api/v1/experimentalcenter/2/course/?current=1&pageSize=8&total=381 HTTP/1.1" 200 2967
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 2967
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 2967
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 2967
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/v1/experimentalcenter/2/file/ HTTP/1.1" 200 2
+"GET /api/v1/experimentalcenter/2/course/?current=1&pageSize=8&total=381 HTTP/1.1" 200 2967
