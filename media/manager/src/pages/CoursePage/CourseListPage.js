@@ -1,9 +1,11 @@
 import React from "react";
 import {fromJS} from "immutable";
+import {hashHistory} from "react-router";
 import {Col, Row, Button, Table} from "antd";
 import * as LocationActionCreator from "../common/store/LocationIndicatorActionCreator";
 import {connect} from "react-redux";
 import Settings from "../../Settings";
+import CourseUploadModal from "./CourseUploadModal";
 const req = Settings.request;
 
 class CourseListPage extends React.Component{
@@ -28,6 +30,12 @@ class CourseListPage extends React.Component{
         let newPagination=fromJS(pagination)
         this.setState({pagination:newPagination},()=>{this.fetchTableData()})
     }
+    handleBackToCenterList(){
+        hashHistory.push("/center")
+    }
+    handleUploadFileModal(){
+        this.setState({uploadModalVisiable:true});
+    }
     fetchTableData() {
         const center_id = this.props.center_id;
         let params = this.state.pagination.toJS();
@@ -43,11 +51,15 @@ class CourseListPage extends React.Component{
             this.setState({fetching:true})
         })
     }
+    handleModalClose(){
+        this.setState({uploadModalVisiable:false});
+        this.fetchTableData();
+    }
     tableColumnFormat() {
         const tableColumn = [
             { title: "上课时间", dataIndex: "course_date", key: "course_date" },
-            { title: "节次", dataIndex: "course_period", key: "course_period" },
             { title: "周次", dataIndex: "course_week_order", key: "course_week_order" },
+            { title: "节次", dataIndex: "course_period", key: "course_period" },
             { title: "房间", dataIndex: "lab", key: "lab" },
             { title: "实验课名称", dataIndex: "experimental_name", key: "experimental_name" },
             { title: "实验名称", dataIndex: "experimental_item", key: "experimental_item" },
@@ -59,8 +71,16 @@ class CourseListPage extends React.Component{
         return tableColumn;
     }
     render() {
+        const fileUploadUrl =  Settings.centerAPIURL+"/"+this.props.center_id+"/file/";
         return (
             <div>
+                <CourseUploadModal visible={this.state.uploadModalVisiable} action={fileUploadUrl} close={()=>{this.handleModalClose()}}></CourseUploadModal>
+                <Row type="flex" justify="end" align="middle">
+                    <Col>
+                        <Button type="primary" style={{marginRight:"20px"}} ghost onClick={()=>{this.handleUploadFileModal()}} >上传课程数据</Button>
+                        <Button type="primary" onClick={()=>{this.handleBackToCenterList()}}>返回</Button>
+                    </Col>
+                </Row>
                 <Row type="flex" justify="center" align="middle">
                     <Col span={24}>
                         <div style={{ marginBottom: "15px" }}></div>
