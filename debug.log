@@ -2629,3 +2629,264 @@ Watching for file changes with StatReloader
 "GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
 "GET /api/v1/user/ HTTP/1.1" 200 55
 "GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/manager/build changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/terser-webpack-plugin/index-v5 changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/build changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/MAIN/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /manager/ HTTP/1.1" 200 25
+/mnt/d/projects/LabCourseDispaly/MAIN/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /manager/
+Traceback (most recent call last):
+  File "/mnt/d/projects/labcoursedisplayvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/d/projects/labcoursedisplayvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/d/projects/labcoursedisplayvenv/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/d/projects/labcoursedisplayvenv/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/mnt/d/projects/LabCourseDispaly/MAIN/views.py", line 33, in get
+    #return HttpResponse("这是管理员主界面!")
+NameError: name 'pageContext' is not defined
+"GET /manager/ HTTP/1.1" 500 69683
+/mnt/d/projects/LabCourseDispaly/MAIN/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /manager/ HTTP/1.1" 200 2214
+"GET /static/js/main.5e643902.chunk.js HTTP/1.1" 404 1703
+"GET /static/css/main.077ad3b2.chunk.css HTTP/1.1" 404 1709
+"GET /static/js/2.c7461c2d.chunk.js HTTP/1.1" 404 1694
+"GET /static/css/2.25a09dad.chunk.css HTTP/1.1" 404 1700
+Not Found: /manifest.json
+"GET /manifest.json HTTP/1.1" 404 2598
+/mnt/d/projects/LabCourseDispaly/MAIN/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /static/css/2.25a09dad.chunk.css HTTP/1.1" 404 1700
+Not Found: /manifest.json
+"GET /manifest.json HTTP/1.1" 404 2598
+"GET /static/css/main.077ad3b2.chunk.css HTTP/1.1" 404 1709
+"GET /manager/ HTTP/1.1" 200 2214
+"GET /static/css/2.25a09dad.chunk.css HTTP/1.1" 404 1700
+"GET /static/css/main.077ad3b2.chunk.css HTTP/1.1" 404 1709
+"GET /static/js/2.c7461c2d.chunk.js HTTP/1.1" 404 1694
+"GET /static/js/main.5e643902.chunk.js HTTP/1.1" 404 1703
+Not Found: /manifest.json
+"GET /manifest.json HTTP/1.1" 404 2598
+"GET /manager/ HTTP/1.1" 200 2214
+"GET /static/css/main.077ad3b2.chunk.css HTTP/1.1" 404 1709
+"GET /static/css/2.25a09dad.chunk.css HTTP/1.1" 404 1700
+"GET /static/js/2.c7461c2d.chunk.js HTTP/1.1" 404 1694
+"GET /static/js/main.5e643902.chunk.js HTTP/1.1" 404 1703
+Not Found: /manifest.json
+"GET /manifest.json HTTP/1.1" 404 2598
+/mnt/d/projects/LabCourseDispaly/LabCourseDisplay/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/LabCourseDisplay/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /manager/ HTTP/1.1" 200 2214
+"GET /static/js/2.c7461c2d.chunk.js HTTP/1.1" 404 1694
+"GET /static/css/main.077ad3b2.chunk.css HTTP/1.1" 404 1709
+"GET /static/js/main.5e643902.chunk.js HTTP/1.1" 404 1703
+"GET /static/css/2.25a09dad.chunk.css HTTP/1.1" 404 1700
+Not Found: /manifest.json
+"GET /manifest.json HTTP/1.1" 404 2725
+"GET /manager/ HTTP/1.1" 200 2214
+"GET /static/css/2.25a09dad.chunk.css HTTP/1.1" 404 1700
+"GET /static/js/2.c7461c2d.chunk.js HTTP/1.1" 404 1694
+"GET /static/css/main.077ad3b2.chunk.css HTTP/1.1" 404 1709
+"GET /static/js/main.5e643902.chunk.js HTTP/1.1" 404 1703
+Not Found: /manifest.json
+"GET /manifest.json HTTP/1.1" 404 2725
+"GET /static/js/2.c7461c2d.chunk.js HTTP/1.1" 404 1694
+Not Found: /media/js/2.c7461c2d.chunk.js
+"GET /media/js/2.c7461c2d.chunk.js HTTP/1.1" 404 2864
+"GET /static/js/2.c7461c2d.chunk.js HTTP/1.1" 404 1694
+"GET /manager/ HTTP/1.1" 200 2214
+"GET /static/css/2.25a09dad.chunk.css HTTP/1.1" 404 1700
+"GET /static/css/main.077ad3b2.chunk.css HTTP/1.1" 404 1709
+"GET /static/js/main.5e643902.chunk.js HTTP/1.1" 404 1703
+"GET /static/js/2.c7461c2d.chunk.js HTTP/1.1" 404 1694
+Not Found: /manifest.json
+"GET /manifest.json HTTP/1.1" 404 2725
+"GET /manager/ HTTP/1.1" 200 2214
+"GET /static/css/main.077ad3b2.chunk.css HTTP/1.1" 404 1709
+"GET /static/css/2.25a09dad.chunk.css HTTP/1.1" 404 1700
+"GET /static/js/main.5e643902.chunk.js HTTP/1.1" 404 1703
+"GET /static/js/2.c7461c2d.chunk.js HTTP/1.1" 404 1694
+Not Found: /manifest.json
+"GET /manifest.json HTTP/1.1" 404 2725
+Not Found: /media/manager/js/2.c7461c2d.chunk.js
+"GET /media/manager/js/2.c7461c2d.chunk.js HTTP/1.1" 404 2888
+Not Found: /media/manager/build/js/2.c7461c2d.chunk.js
+"GET /media/manager/build/js/2.c7461c2d.chunk.js HTTP/1.1" 404 2906
+"GET /media/manager/build/static/js/2.c7461c2d.chunk.js HTTP/1.1" 200 1439584
+"GET /static/js/main.5e643902.chunk.js HTTP/1.1" 404 1703
+/mnt/d/projects/LabCourseDispaly/media/manager changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/terser-webpack-plugin/index-v5 changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/terser-webpack-plugin/index-v5 changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/build changed, reloading.
+Watching for file changes with StatReloader
+"GET /manager/ HTTP/1.1" 200 2304
+Not Found: /manager/manager/build/static/js/2.84ead2e5.chunk.js
+Not Found: /manager/manager/build/static/css/main.077ad3b2.chunk.css
+Not Found: /manager/manager/build/static/css/2.25a09dad.chunk.css
+"GET /manager/manager/build/static/js/2.84ead2e5.chunk.js HTTP/1.1" 404 2839
+"GET /manager/manager/build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 404 2854
+"GET /manager/manager/build/static/css/2.25a09dad.chunk.css HTTP/1.1" 404 2845
+Not Found: /manager/manager/build/static/js/main.5e643902.chunk.js
+"GET /manager/manager/build/static/js/main.5e643902.chunk.js HTTP/1.1" 404 2848
+Not Found: /manager/manager/build/manifest.json
+"GET /manager/manager/build/manifest.json HTTP/1.1" 404 2791
+"GET /manager/ HTTP/1.1" 200 2304
+Not Found: /manager/manager/build/static/js/2.84ead2e5.chunk.js
+Not Found: /manager/manager/build/static/css/2.25a09dad.chunk.css
+Not Found: /manager/manager/build/static/js/main.5e643902.chunk.js
+Not Found: /manager/manager/build/static/css/main.077ad3b2.chunk.css
+"GET /manager/manager/build/static/css/2.25a09dad.chunk.css HTTP/1.1" 404 2845
+"GET /manager/manager/build/static/js/2.84ead2e5.chunk.js HTTP/1.1" 404 2839
+"GET /manager/manager/build/static/js/main.5e643902.chunk.js HTTP/1.1" 404 2848
+"GET /manager/manager/build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 404 2854
+Not Found: /manager/manager/build/manifest.json
+"GET /manager/manager/build/manifest.json HTTP/1.1" 404 2791
+/mnt/d/projects/LabCourseDispaly/media/manager changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/build changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/terser-webpack-plugin/index-v5 changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/terser-webpack-plugin/index-v5 changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/build changed, reloading.
+Watching for file changes with StatReloader
+"GET /manager/ HTTP/1.1" 200 2256
+Not Found: /manager/build/static/css/main.077ad3b2.chunk.css
+Not Found: /manager/build/static/js/main.5e643902.chunk.js
+Not Found: /manager/build/static/js/2.ccf2059a.chunk.js
+Not Found: /manager/build/static/css/2.25a09dad.chunk.css
+"GET /manager/build/static/js/2.ccf2059a.chunk.js HTTP/1.1" 404 2815
+"GET /manager/build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 404 2830
+"GET /manager/build/static/js/main.5e643902.chunk.js HTTP/1.1" 404 2824
+"GET /manager/build/static/css/2.25a09dad.chunk.css HTTP/1.1" 404 2821
+Not Found: /manager/build/manifest.json
+"GET /manager/build/manifest.json HTTP/1.1" 404 2767
+Not Found: /manager/build/static/js/2.ccf2059a.chunk.js
+"GET /manager/build/static/js/2.ccf2059a.chunk.js HTTP/1.1" 404 2815
+"GET /media/manager/build/static/js/2.ccf2059a.chunk.js HTTP/1.1" 200 1439598
+/mnt/d/projects/LabCourseDispaly/media/manager changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/build changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/terser-webpack-plugin/index-v5 changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/build changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /media/manager/build/static/js/2.c7461c2d.chunk.js
+"GET /media/manager/build/static/js/2.c7461c2d.chunk.js HTTP/1.1" 404 2927
+Not Found: /media/manager/build/static/js/2.c7461c2d.chunk.js
+"GET /media/manager/build/static/js/2.c7461c2d.chunk.js HTTP/1.1" 404 2927
+"GET /manager/ HTTP/1.1" 200 2340
+"GET /manager/ HTTP/1.1" 200 2340
+"GET /media/manager//build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager//build/static/js/main.5e643902.chunk.js HTTP/1.1" 200 19446
+"GET /media/manager//build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager//build/static/js/2.3412437d.chunk.js HTTP/1.1" 200 1439626
+"GET /media/manager//build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager//build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager//build/static/js/main.5e643902.chunk.js.map HTTP/1.1" 200 51558
+"GET /media/manager//build/static/js/2.3412437d.chunk.js.map HTTP/1.1" 200 4175431
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /media/manager//build/manifest.json HTTP/1.1" 200 492
+"GET /media/manager//build/logo192.png HTTP/1.1" 200 5347
+"GET /manager/ HTTP/1.1" 200 2340
+"GET /media/manager//build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager//build/static/js/main.5e643902.chunk.js HTTP/1.1" 200 19446
+"GET /media/manager//build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager//build/static/js/2.3412437d.chunk.js HTTP/1.1" 200 1439626
+"GET /media/manager//build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager//build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager//build/static/js/main.5e643902.chunk.js.map HTTP/1.1" 200 51558
+"GET /media/manager//build/static/js/2.3412437d.chunk.js.map HTTP/1.1" 200 4175431
+"GET /media/manager//build/manifest.json HTTP/1.1" 200 492
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /media/manager//build/logo192.png HTTP/1.1" 200 5347
+"GET /manager/ HTTP/1.1" 200 2340
+"GET /media/manager//build/static/js/main.5e643902.chunk.js HTTP/1.1" 200 19446
+"GET /media/manager//build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager//build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager//build/static/js/2.3412437d.chunk.js HTTP/1.1" 200 1439626
+"GET /media/manager//build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager//build/static/js/main.5e643902.chunk.js.map HTTP/1.1" 200 51558
+"GET /media/manager//build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager//build/static/js/2.3412437d.chunk.js.map HTTP/1.1" 200 4175431
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /media/manager//build/manifest.json HTTP/1.1" 200 492
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /media/manager//build/logo192.png HTTP/1.1" 200 5347
+"GET /media/manager//build/static/js/main.5e643902.chunk.js.map HTTP/1.1" 200 51558
+"GET /media/manager//build/static/js/2.3412437d.chunk.js.map HTTP/1.1" 200 4175431
+"GET /media/manager//build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager//build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /manager/ HTTP/1.1" 200 2340
+"GET /media/manager//build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager//build/static/js/main.5e643902.chunk.js HTTP/1.1" 200 19446
+"GET /media/manager//build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager//build/static/js/2.3412437d.chunk.js HTTP/1.1" 200 1439626
+"GET /media/manager//build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager//build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager//build/static/js/main.5e643902.chunk.js.map HTTP/1.1" 200 51558
+"GET /media/manager//build/static/js/2.3412437d.chunk.js.map HTTP/1.1" 200 4175431
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /media/manager//build/manifest.json HTTP/1.1" 200 492
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /media/manager//build/logo192.png HTTP/1.1" 200 5347
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /manager/ HTTP/1.1" 200 2340
+"GET /media/manager//build/static/css/2.25a09dad.chunk.css HTTP/1.1" 304 0
+"GET /media/manager//build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 304 0
+"GET /media/manager//build/static/js/2.3412437d.chunk.js HTTP/1.1" 304 0
+"GET /media/manager//build/static/js/main.5e643902.chunk.js HTTP/1.1" 304 0
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/manager/src/Settings.js changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/build changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/build changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.staging changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.staging changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.staging changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.staging changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.staging changed, reloading.
+Watching for file changes with StatReloader

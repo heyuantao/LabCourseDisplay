@@ -17,6 +17,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,re_path
 from django.conf.urls import include, url
+from django.conf import settings
+from django.conf.urls.static import static
 from django.views.generic import RedirectView
 
 from MAIN.views import GuestView, ManagerView, IndexView
@@ -35,4 +37,4 @@ urlpatterns = [
     path('manager/', ManagerView.as_view(), name='manager_home_page'),
     path('', IndexView.as_view(), name='index'),
     #path('', RedirectView.as_view(url="/main")),
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

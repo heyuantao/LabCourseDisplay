@@ -25,8 +25,9 @@ class GuestView(View):
 
 class ManagerView(View):
     #template = "guest/build/index.html"
+    template = "manager/build/index.html"
 
     def get(self, request):
-        # pageContext = request.GET.dict()
-        # return render(request, self.template, pageContext)
-        return HttpResponse("这是管理员主界面!")
+        #pageContext = request.GET.dict()
+        return render(request, self.template)
+        #return HttpResponse("这是管理员主界面!")
