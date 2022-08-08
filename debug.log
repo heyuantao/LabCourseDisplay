@@ -2890,3 +2890,281 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 /mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.staging changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 210
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 210
+"GET /media/manager//build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager//build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager//build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager//build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager//build/static/js/2.3412437d.chunk.js.map HTTP/1.1" 200 4175431
+Not Found: /media/manager//build/static/js/main.5e643902.chunk.js.map
+"GET /media/manager//build/static/js/main.5e643902.chunk.js.map HTTP/1.1" 404 2951
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 210
+/mnt/d/projects/LabCourseDispaly/media/guest/src changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/common changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/public/index.html changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/common changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/common changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/common/store changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/login_page changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/LoginPage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/common changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/LoginPage changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/LoginPage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/LoginPage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/LoginPage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/LoginPage changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/experimentalcenter/
+Unauthorized: /api/v1/user/
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 186
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader

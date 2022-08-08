@@ -17,7 +17,6 @@ class CourseListPage extends React.Component{
             tableData: fromJS([]),
             uploadModalVisiable:false,
         }
-
     }
     //componentWillReceiveProps(props){
     //    this.fetchTableData();
