@@ -2440,3 +2440,192 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 "POST /api/v1/experimentalcenter/2/file/ HTTP/1.1" 200 2
 "GET /api/v1/experimentalcenter/2/course/?current=1&pageSize=8&total=381 HTTP/1.1" 200 2967
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/experimentalcenter/1/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 2991
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 2967
+"POST /api/v1/experimentalcenter/2/file/ HTTP/1.1" 200 2
+"GET /api/v1/experimentalcenter/2/course/?current=1&pageSize=8&total=381 HTTP/1.1" 200 3028
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/experimentalcenter/1/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 2991
+"GET /api/v1/experimentalcenter/1/course?total=381&pageSize=8&current=48 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/1/course/?total=381&pageSize=8&current=48 HTTP/1.1" 200 1748
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 3028
+"GET /api/v1/experimentalcenter/2/course?total=292&pageSize=8&current=37 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=292&pageSize=8&current=37 HTTP/1.1" 200 1630
+"GET /api/v1/experimentalcenter/2/course?total=292&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=292&pageSize=8&current=1 HTTP/1.1" 200 3028
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/experimentalcenter/1/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 2991
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 302 0
+"GET /main HTTP/1.1" 301 0
+"GET /main/ HTTP/1.1" 200 33
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2314
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 5338
+/mnt/d/projects/LabCourseDispaly/MAIN/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/LabCourseDisplay/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/LabCourseDisplay/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/LabCourseDisplay/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/MAIN/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/MAIN/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/LabCourseDisplay/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/LabCourseDisplay/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/LabCourseDisplay/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/LabCourseDisplay/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /api/v1/admin
+"GET /api/v1/admin HTTP/1.1" 404 4343
+Method Not Allowed: /api/v1/login/
+"GET /api/v1/login/ HTTP/1.1" 405 7455
+"POST /api/v1/login/ HTTP/1.1" 200 7782
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/common changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"PUT /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/user/ HTTP/1.1" 200 55
+Bad Request: /api/v1/login/
+"POST /api/v1/login/ HTTP/1.1" 400 7359
+"POST /api/v1/login/ HTTP/1.1" 200 7782
+"PUT /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/common changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/common changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/common changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/common changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/common/store changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/manager/src/store changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/common changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/common changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/common changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 200 55
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/common/store changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/common changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/common/store changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/common/store changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/manager/src/Settings.js changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/manager/public/index.html changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/manager/public/index.html changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/manager/public/index.html changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/public/index.html changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/manager/public changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/manager/public/index.html changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/manager/public changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/manager/public/index.html changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114

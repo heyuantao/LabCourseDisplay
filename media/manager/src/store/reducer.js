@@ -1,10 +1,10 @@
 import {combineReducers} from "redux";
-//import UserReducer from "../pages/common/store/UserReducer";
+import UserReducer from "../pages/common/store/UserReducer";
 import LocationIndicatorReducer from "../pages/common/store/LocationIndicatorReducer";
 
 export default combineReducers(
     {
-        //user:UserReducer,
+        user:UserReducer,
         location:LocationIndicatorReducer,
     }
 )

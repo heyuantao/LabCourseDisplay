@@ -27,6 +27,11 @@ class UserSerializer(serializers.Serializer):
                 user_instance.save()
             return user_instance
 
+    def validate(self, data):
+        user_password_string = self.initial_data.get("password", "")
+        data['password'] = user_password_string
+        return data
+
 class LoginSerializer(serializers.Serializer):
     username = serializers.CharField(max_length=150)
     password = serializers.CharField(max_length=150)

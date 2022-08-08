@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """LabCourseDispaly URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -18,6 +19,8 @@ from django.urls import path,re_path
 from django.conf.urls import include, url
 from django.views.generic import RedirectView
 
+from MAIN.views import GuestView, ManagerView, IndexView
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     #old style url
@@ -26,5 +29,10 @@ urlpatterns = [
     #re_path('^$', RedirectView.as_view(url="/main")),
     path('main/', include('MAIN.urls')),
     path('api/', include('API.urls')),
-    path('', RedirectView.as_view(url="/main")),
+
+    #这是几个角色的主页面，该主页面仅仅是为了引入前后端分离模式下的前端文件
+    path('guest/', GuestView.as_view(), name='guest_home_page'),
+    path('manager/', ManagerView.as_view(), name='manager_home_page'),
+    path('', IndexView.as_view(), name='index'),
+    #path('', RedirectView.as_view(url="/main")),
 ]

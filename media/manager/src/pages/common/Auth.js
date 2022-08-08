@@ -10,8 +10,15 @@ function getJWT(){
 }
 
 function getTestJWT(){
-    const token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjU5ODkwMDc1LCJqdGkiOiJkNjI5NjA2MjJkYjg0NGI4YmUwNjZkYjNmZjBkNGU4NiIsInVzZXJfaWQiOjF9.gDR_O3GiLyk0H90ktFalpR7HSM4WnxR4sdsOwEuF4lc";
+    const token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjU5OTM1ODk1LCJqdGkiOiJlYTlkZmQ3NDViZjY0ZjExOWJhNTg5MjQxYTYxZGVjOSIsInVzZXJfaWQiOjF9.n72IWFHGEVaZiYt1ISR722enaF-UGx_b7JUPmjnLehI";
     return token;
+}
+
+
+function clearJWT() {
+    console.log("Clear JWT in Auth.js");
+    localStorage.setItem('access_token', "");
+    localStorage.setItem('refresh_token', "")
 }
 
 function setJWT(tokenObject) {
@@ -23,5 +30,6 @@ function setJWT(tokenObject) {
 export default{
     getJWT:getJWT,
     setJWT:setJWT,
+    clearJWT:clearJWT,
     getTestJWT:getTestJWT,
 }

@@ -1,6 +1,7 @@
 import {fromJS} from "immutable";
 import * as actionType from "./constants"
 import Settings from "../../../Settings";
+import Auth from "../Auth";
 
 const req = Settings.request;
 const userAPIURL = Settings.userAPIURL;
@@ -21,11 +22,9 @@ export const getUser = () => {
 
 export const logout = () => {
     return (dispatch) => {
-        req.post(logoutAPIURL,{}).then((response)=>{
-            let action = {type:actionType.USER_LOGOUT,playload:fromJS({})};
-            dispatch(action);
-            dispatch(getUser());
-        }).catch((error)=>{
-        })
+        Auth.clearJWT();
+        let action = {type:actionType.USER_LOGOUT,playload:fromJS({})};
+        dispatch(action);
+        dispatch(getUser());
     }
 }

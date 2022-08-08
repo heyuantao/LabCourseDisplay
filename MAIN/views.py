@@ -14,3 +14,19 @@ class IndexView(View):
         #pageContext = request.GET.dict()
         #return render(request, self.template, pageContext)
         return HttpResponse("这是实验室课程系统主站")
+
+class GuestView(View):
+    #template = "guest/build/index.html"
+
+    def get(self, request):
+        # pageContext = request.GET.dict()
+        # return render(request, self.template, pageContext)
+        return HttpResponse("这是访客主界面!")
+
+class ManagerView(View):
+    #template = "guest/build/index.html"
+
+    def get(self, request):
+        # pageContext = request.GET.dict()
+        # return render(request, self.template, pageContext)
+        return HttpResponse("这是管理员主界面!")

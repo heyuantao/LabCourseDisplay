@@ -8,18 +8,21 @@ const { Header } = Layout;
 
 class PageHeader extends React.Component {
     handleLogout(){
-        this.props.logout()
+        this.props.logout();
     }
     componentDidMount() {
-        this.props.getUser()
+        this.props.getUser();
     }
     render() {
-        //const user = this.props.user.get("user");
+        const user = this.props.user.get("user");
         return (
             <Header style={{ background: '#fff'}} >
                 <Row type="flex" align="middle" justify="end">
-                    <Col style={{marginRight:"10px"}}><h3>张三</h3></Col>
-                    <Col >
+                    <Col style={{marginRight:"10px"}}><h3>{user.get("email")}</h3></Col>
+                    {  (user.get("is_superuser")===true)&&
+                        <Col ><h3>管理员</h3></Col>
+                    }
+                    <Col>
                         <Button style={{marginLeft:"50px"}} onClick={()=>{this.handleLogout()}} type="primary">注销</Button>
                     </Col>
                 </Row>
@@ -30,17 +33,17 @@ class PageHeader extends React.Component {
 
 const mapStoreToProps = (store) => {
     return {
-        //user:store.user,
+        user:store.user,
     }
 }
 
 const mapDispatchToProps = (dispatch) => {
     return {
         getUser(){
-            //dispatch(UserActionCreator.getUser())
+            dispatch(UserActionCreator.getUser())
         },
         logout(){
-            //dispatch(UserActionCreator.logout())
+            dispatch(UserActionCreator.logout())
         }
     }
 }

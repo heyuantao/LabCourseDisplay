@@ -40,10 +40,7 @@ req.interceptors.response.use(
 export default{
     request:req,
     loginAPIURL:"/api/v1/login/",
-    //logoutAPIURL:"/api/v1/logout/",
-    //registrationAPIURL:"/api/v1/registration/",
     userAPIURL:"/api/v1/user/",
-
     centerAPIURL:"/api/v1/experimentalcenter/",
 
 }

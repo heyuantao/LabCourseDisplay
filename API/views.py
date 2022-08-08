@@ -7,6 +7,7 @@ import pandas
 from datetime import datetime
 
 from django.contrib.auth import authenticate
+from django.urls import reverse
 from rest_framework import generics
 from rest_framework.exceptions import ValidationError
 from rest_framework.permissions import IsAuthenticated
@@ -37,7 +38,7 @@ class UserAPIView(APIView):  #This class handle user information retrive and upd
             return Response(serializer.data, status=200)
         else:
             #response = Response({"redirect_url": reverse("guest")}, status=302)
-            response = Response({"redirect_url": "NULL Value !"}, status=302)
+            response = Response({"redirect_url": reverse("guest_home_page")}, status=302)
             response['Cache-Control'] = 'no-cache'
             return response
 
