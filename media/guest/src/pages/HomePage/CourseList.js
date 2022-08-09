@@ -30,22 +30,30 @@ class CourseList extends React.Component {
     handleFieldChange(value, field) {
         let dict = {}; dict[field] = value;
         let change = fromJS(dict);
-        this.setState({ formData: this.state.formData.merge(change) })
+        this.setState({ formData: this.state.formData.merge(change) },()=>{console.log(this.state.formData.toJS());});
+
     }
     validateFormField() {
         //let formData = this.state.formData;
         //this.setState({ formFieldValidateInfo: "" });
         return 1;
     }
+    clearEmptyParamsForQuery(params){
+        if(params.get("center_name")==""){
+            params=params.delete("center_name");
+        }
+        return params;
+    }
     fetchTableData() {
         const apiURL = Settings.courseQueryAPIURL;
 
         const formData = this.state.formData;
         const pagination = this.state.pagination;
-        const params = formData.merge(pagination).toJS();
+        let params = formData.merge(pagination);
+        params = this.clearEmptyParamsForQuery(params);
 
         this.setState({fetching:true});
-        req.get(apiURL,{params:params}).then((response)=>{
+        req.get(apiURL,{params:params.toJS()}).then((response)=>{
             const tableData = fromJS(response.data.items);
             const paginationData = fromJS(response.data.pagination);
             this.setState({tableData:tableData});
@@ -98,7 +106,8 @@ class CourseList extends React.Component {
                                 </Select>
                             </Form.Item>
                             <Form.Item label={"上课日期"}>
-                                <DatePicker onChange={(dm, ds) => { if(ds!==""){this.handleFieldChange(ds, 'course_date')} }} value={moment(formData.get("course_date"))} />
+                                <DatePicker onChange={(dm, ds) => { this.handleFieldChange(ds, 'course_date') }}
+                                     allowClear={true} placeholder={"请选择日期"} />
                             </Form.Item>
                             <Form.Item  style={{float:"right"}}>
                                 <Button onClick={()=>{this.handleSearchClear()}} type="default">清空</Button>
