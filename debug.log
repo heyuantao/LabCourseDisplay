@@ -3503,3 +3503,39 @@ Not Found: /api/v1/experimentalcenter//2/course
 "GET /api/v1/user/ HTTP/1.1" 200 55
 "GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
 "GET /api/v1/user/ HTTP/1.1" 200 55
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 210
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 210
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/user/ HTTP/1.1" 401 210
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 210
+Unauthorized: /api/v1/user/
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/user/ HTTP/1.1" 401 210
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 210
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/API/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114

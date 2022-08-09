@@ -7,7 +7,8 @@ from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 from API.views import UserAPIView, ExperimentalCenterListAPIView, ExperimentalCenterRetrieveAPIView, \
     ExperimentalCenterCourseListAPIView, ExperimentalCenterCourseRetriveAPIView, \
-    ExperimentalCenterTodayCourseListAPIView, AdminPremissionTestView, LoginAPIView
+    AdminPremissionTestView, LoginAPIView
+from API.views import ExperimentalCenterTodayCourseListAPIView, CourseListAPIView
 from API.views import ExperimentalCenterCourseFileUploaderView
 
 urlpatterns = [
@@ -37,7 +38,8 @@ urlpatterns = [
 
 
     #实验中心课程API,访客专用API接口，用于在大屏幕上展示信息,访客权限即可
-    path('v1/guest/experimentalcenter/<int:id>/todaycourse/',ExperimentalCenterTodayCourseListAPIView.as_view())
-
+    path('v1/guest/experimentalcenter/<int:id>/todaycourse/',ExperimentalCenterTodayCourseListAPIView.as_view()),
+    #用于复杂查询的API
+    path('v1/guest/course/',CourseListAPIView.as_view()),
 
 ]

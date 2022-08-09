@@ -224,6 +224,35 @@ class ExperimentalCenterTodayCourseListAPIView(generics.ListAPIView):
             logger.error(traceback.print_exc())
             return Response({}, status=404)
 
+class CourseListAPIView(generics.ListAPIView):
+    serializer_class = CourseSerializer
+    pagination_class = None
+
+    def get_queryset(self):
+        center = self.request.query_params.get('center_name', None)
+        week_order = self.request.query_params.get('week_order', None)
+        course_date = self.request.query_params.get('course_date', None)
+        querySet = CourseModel.objects.all()
+        if center is not None:
+            querySet = querySet.filter(experimental_center__name__exact=center)
+        if week_order is not None:
+            querySet = querySet.filter(course_week_order__exact=week_order)
+        if course_date is not None:
+            #course_data要进行类型转换,否则无法进行处理
+            course_date = datetime.strptime(course_date, "%Y-%m-%d")
+            querySet = querySet.filter(course_date__exact=course_date)
+        return querySet
+
+    def get(self, request, id, *args, **kwargs):
+        try:
+            return self.list(request, *args, **kwargs)
+        except MessageException as e:
+            return Response({'error_message':str(e)}, status=404)
+        except Exception as e:
+            logger.error(traceback.print_exc())
+            return Response({}, status=404)
+
+
 #该视图仅用于接口权限的测试
 class AdminPremissionTestView(APIView):
     permission_classes = (IsAuthenticated,)

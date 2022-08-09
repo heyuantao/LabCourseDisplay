@@ -1,8 +1,9 @@
 import React from "react";
 import {connect} from "react-redux";
 import {fromJS} from "immutable";
-import {Row, Col, Form, Input, Button, Alert, Icon, Layout, Menu, Table, Select} from "antd";
+import {Row, Col, Form, Input, Button, Alert, Icon, Layout, Menu, Table, Select, DatePicker} from "antd";
 import { Link,hashHistory } from "react-router";
+import moment from 'moment';
 import Settings from "../../Settings";
 const { Content } = Layout;
 const req = Settings.request;
@@ -52,14 +53,14 @@ class CourseList extends React.Component {
             <Content style={{background: '#fff',minHeight: "850px", padding: 10 }}>
                 <Row type="flex" justify="space-around" align="middle">
                     <Col span={22}>
-                        <Select value={formData.get("center")}  onChange={(v) => { this.handleFieldChange(v, "center") }}  style={{ width: 200 }}>
-                            <Select.Option key={0} value={0}>全部</Select.Option>
+                        <Select value={formData.get("center_name")}  onChange={(v) => { this.handleFieldChange(v, "center_name") }}  style={{ width: 200 }}>
                             {
                                this.state.centers.map(function (obj) {
                                   return <Select.Option key={obj.get("id")} value={obj.get("id")}>{obj.get("name")}</Select.Option>
                                })
                             }
                         </Select>
+                        <DatePicker onChange={(dm, ds) => { if(ds!==""){this.handleFieldChange(ds, 'startdate')} }} value={moment(formData.get("course_date"))} />
                         <Button type="primary" style={{marginLeft:20}} onClick={()=>{}}>选择</Button>
                     </Col>
                 </Row>
