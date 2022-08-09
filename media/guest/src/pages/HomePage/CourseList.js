@@ -30,38 +30,40 @@ class CourseList extends React.Component {
     handleFieldChange(value, field) {
         let dict = {}; dict[field] = value;
         let change = fromJS(dict);
-        console.log(field);
-        console.log(value);
         this.setState({ formData: this.state.formData.merge(change) })
     }
     validateFormField() {
-        let formData = this.state.formData;
-        this.setState({ formFieldValidateInfo: "" })
+        //let formData = this.state.formData;
+        //this.setState({ formFieldValidateInfo: "" });
         return 1;
     }
-        etchTableListData() {
-        const formData = this.state.formData;
-        const params = formData.toJS();
-        const url = scorequeryAPIURL;
-        this.setState({fetching:true});
+    fetchTableData() {
+        const apiURL = Settings.courseQueryAPIURL;
 
-        req.get(externalexamurl,{params:params}).then((request)=>{
-            const tableData = fromJS(request.data);
-            this.setState({externalTableData:tableData,fetching:false});
+        const formData = this.state.formData;
+        const pagination = this.state.pagination;
+        const params = formData.merge(pagination).toJS();
+
+        this.setState({fetching:true});
+        req.get(apiURL,{params:params}).then((response)=>{
+            const tableData = fromJS(response.data.items);
+            const paginationData = fromJS(response.data.pagination);
+            this.setState({tableData:tableData});
+            this.setState({pagination:paginationData});
+            this.setState({fetching:false});
         }).catch((error)=>{
             this.setState({fetching:false});
         })
-
     }
     handleSearchSubmit(){
         if(this.validateFormField()<0){
             return;
         }
-        this.fetchTableListData();
+        this.fetchTableData();
     }
     handleSearchClear(){
         const formData = fromJS({});
-        this.setState({formData:formData);
+        this.setState({formData:formData});
     }
     tableColumnFormat() {
         const tableColumn = [
@@ -110,7 +112,6 @@ class CourseList extends React.Component {
                         <div style={{ marginBottom: "15px" }}></div>
                         <Table dataSource={this.state.tableData.toJS()} rowKey="id" pagination={this.state.pagination.toJS()}
                             onChange={(pagination, filters, sorter)=>{this.handleTableChange(pagination, filters, sorter)}}
-                            //   expandedRowRender={record => <p style={{ margin: 0 }}>备注:{record.comments} 考生编号:{record.examinee_id}</p>}
                             columns={this.tableColumnFormat()} loading={this.state.fetching}>
                         </Table>
                     </Col>

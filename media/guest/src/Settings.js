@@ -41,6 +41,8 @@ export default{
     loginAPIURL:"/api/v1/login/",
     userAPIURL:"/api/v1/user/",
     centerAPIURL:"/api/v1/experimentalcenter/",
+
+    courseQueryAPIURL:"/api/v1/guest/course/",
 }
 
 

@@ -226,7 +226,7 @@ class ExperimentalCenterTodayCourseListAPIView(generics.ListAPIView):
 
 class CourseListAPIView(generics.ListAPIView):
     serializer_class = CourseSerializer
-    pagination_class = None
+    pagination_class = CustomItemPagination
 
     def get_queryset(self):
         center = self.request.query_params.get('center_name', None)
@@ -243,7 +243,7 @@ class CourseListAPIView(generics.ListAPIView):
             querySet = querySet.filter(course_date__exact=course_date)
         return querySet
 
-    def get(self, request, id, *args, **kwargs):
+    def get(self, request, *args, **kwargs):
         try:
             return self.list(request, *args, **kwargs)
         except MessageException as e:
