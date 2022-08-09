@@ -12,7 +12,7 @@ class CourseList extends React.Component {
     constructor(props) {
         super(props);
         this.state={
-            formData: fromJS({center:0}),
+            formData: fromJS({center_name:""}),
             centers:fromJS([]),
             pagination: fromJS({total: 0, pageSize: 8, current: 1}),
             fetching: false,
@@ -30,7 +30,38 @@ class CourseList extends React.Component {
     handleFieldChange(value, field) {
         let dict = {}; dict[field] = value;
         let change = fromJS(dict);
+        console.log(field);
+        console.log(value);
         this.setState({ formData: this.state.formData.merge(change) })
+    }
+    validateFormField() {
+        let formData = this.state.formData;
+        this.setState({ formFieldValidateInfo: "" })
+        return 1;
+    }
+        etchTableListData() {
+        const formData = this.state.formData;
+        const params = formData.toJS();
+        const url = scorequeryAPIURL;
+        this.setState({fetching:true});
+
+        req.get(externalexamurl,{params:params}).then((request)=>{
+            const tableData = fromJS(request.data);
+            this.setState({externalTableData:tableData,fetching:false});
+        }).catch((error)=>{
+            this.setState({fetching:false});
+        })
+
+    }
+    handleSearchSubmit(){
+        if(this.validateFormField()<0){
+            return;
+        }
+        this.fetchTableListData();
+    }
+    handleSearchClear(){
+        const formData = fromJS({});
+        this.setState({formData:formData);
     }
     tableColumnFormat() {
         const tableColumn = [
@@ -53,15 +84,25 @@ class CourseList extends React.Component {
             <Content style={{background: '#fff',minHeight: "850px", padding: 10 }}>
                 <Row type="flex" justify="space-around" align="middle">
                     <Col span={22}>
-                        <Select value={formData.get("center_name")}  onChange={(v) => { this.handleFieldChange(v, "center_name") }}  style={{ width: 200 }}>
-                            {
-                               this.state.centers.map(function (obj) {
-                                  return <Select.Option key={obj.get("id")} value={obj.get("id")}>{obj.get("name")}</Select.Option>
-                               })
-                            }
-                        </Select>
-                        <DatePicker onChange={(dm, ds) => { if(ds!==""){this.handleFieldChange(ds, 'startdate')} }} value={moment(formData.get("course_date"))} />
-                        <Button type="primary" style={{marginLeft:20}} onClick={()=>{}}>选择</Button>
+                        <Form  layout="inline">
+                            <Form.Item label={"实验中心"}>
+                                <Select value={formData.get("center_name")}  onChange={(v) => { this.handleFieldChange(v, "center_name") }}  style={{ width: 200 }}>
+                                    <Select.Option key={0} value={""}>全部</Select.Option>
+                                    {
+                                       this.state.centers.map(function (obj) {
+                                          return <Select.Option key={obj.get("id")} value={obj.get("name")}>{obj.get("name")}</Select.Option>
+                                       })
+                                    }
+                                </Select>
+                            </Form.Item>
+                            <Form.Item label={"上课日期"}>
+                                <DatePicker onChange={(dm, ds) => { if(ds!==""){this.handleFieldChange(ds, 'course_date')} }} value={moment(formData.get("course_date"))} />
+                            </Form.Item>
+                            <Form.Item  style={{float:"right"}}>
+                                <Button onClick={()=>{this.handleSearchClear()}} type="default">清空</Button>
+                                <Button type="primary" style={{marginLeft:20}} onClick={()=>{this.handleSearchSubmit()}}>查询</Button>
+                            </Form.Item>
+                        </Form>
                     </Col>
                 </Row>
                 <Row type="flex" justify="space-around" align="middle">
