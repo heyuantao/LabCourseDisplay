@@ -2,28 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fde21338-91e7-41dd-b32c-5f94acc800bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/guest/src/pages/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/guest/src/pages/AppLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/guest/src/pages/HomePage/CourseList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/guest/src/pages/HomePage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/guest/src/pages/LoginPage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/guest/src/pages/common/Auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/guest/src/pages/common/PageFooter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/guest/src/pages/common/PageHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/guest/src/pages/common/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/guest/src/pages/common/store/LocationIndicatorActionCreator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/guest/src/pages/common/store/LocationIndicatorReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/guest/src/pages/common/store/UserActionCreator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/guest/src/pages/common/store/UserReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/guest/src/pages/common/store/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/guest/src/pages/common/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/电子信息实验中心课表.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/计算机实验中心课表.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAIN/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MAIN/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/guest/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/media/guest/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/guest/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/media/guest/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/guest/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/media/guest/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/guest/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/guest/src/store/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/manager/src/pages/CoursePage/CourseListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/pages/CoursePage/CourseListPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/guest/src/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/guest/src/Settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/guest/src/pages/HomePage/CourseList.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/guest/src/pages/HomePage/CourseList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/guest/src/pages/LoginPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/guest/src/pages/LoginPage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/guest/src/pages/common/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/guest/src/pages/common/Auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/manager/src/pages/common/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/pages/common/Auth.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="jsx.switch.disabled" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/media/guest/src/pages/common" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Data" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -71,12 +61,15 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\LabCourseDispaly\Data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\LabCourseDispaly\Data" />
       <recent name="D:\projects\LabCourseDispaly\media\guest\src\pages\common" />
       <recent name="D:\projects\LabCourseDispaly\media\guest\src\pages" />
       <recent name="D:\projects\LabCourseDispaly\media\guest\src" />
       <recent name="D:\projects\LabCourseDispaly\media\manager\src\pages\CenterPage" />
-      <recent name="D:\projects\LabCourseDispaly\media\manager\src\pages" />
     </key>
   </component>
   <component name="RunManager">
@@ -147,7 +140,8 @@
       <workItem from="1659619388974" duration="3214000" />
       <workItem from="1659684958140" duration="6786000" />
       <workItem from="1659847323032" duration="7387000" />
-      <workItem from="1659919301424" duration="13020000" />
+      <workItem from="1659919301424" duration="15233000" />
+      <workItem from="1660002109074" duration="4326000" />
     </task>
     <servers />
   </component>
@@ -171,22 +165,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1659404948818" />
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1659938817155">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1660006825915">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1659938817155" />
-    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1659938817154">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1660006825915" />
+    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1660006825915">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1659938817154" />
-    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1659938817154">
+    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1660006825915" />
+    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1660006825915">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1659938817154" />
-    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1659938817155">
+    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1660006825915" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1660006825915">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1659938817155" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1660006825915" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1659280052265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

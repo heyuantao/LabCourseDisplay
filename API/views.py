@@ -60,7 +60,7 @@ class UserAPIView(APIView):  #This class handle user information retrive and upd
 
 class ExperimentalCenterListAPIView(generics.ListCreateAPIView):
     serializer_class = ExperimentalCenterSerializer
-    permission_classes = (IsAuthenticated,)
+    #permission_classes = (IsAuthenticated,)
     pagination_class = None
 
     def get_queryset(self):
@@ -238,7 +238,9 @@ class LoginAPIView(APIView):
 
     def get_tokens_for_user(self, user):
         refresh = RefreshToken.for_user(user)
-        return {'refresh': str(refresh),'access': str(refresh.access_token),}
+        dict= {'refresh': str(refresh),'access': str(refresh.access_token),'redirect_url':reverse("manager_home_page")}
+        #print(dict)
+        return dict
 
     def post(self, request, format=None):
         try:

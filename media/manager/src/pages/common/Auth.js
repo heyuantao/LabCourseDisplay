@@ -2,7 +2,7 @@ import Settings from "../../Settings";
 
 function getJWT(){
     var token = localStorage.getItem('access_token');
-    if(token === null){
+    if(token !== null){
         return token;
     }else{
         return "";

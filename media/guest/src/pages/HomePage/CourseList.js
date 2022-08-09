@@ -11,7 +11,7 @@ class CourseList extends React.Component {
     constructor(props) {
         super(props);
         this.state={
-            formData: fromJS({}),
+            formData: fromJS({center:0}),
             centers:fromJS([]),
             pagination: fromJS({total: 0, pageSize: 8, current: 1}),
             fetching: false,
@@ -25,6 +25,11 @@ class CourseList extends React.Component {
     handleTableChange(pagination, filters, sorter){
         let newPagination=fromJS(pagination)
         this.setState({pagination:newPagination},()=>{this.fetchTableData()})
+    }
+    handleFieldChange(value, field) {
+        let dict = {}; dict[field] = value;
+        let change = fromJS(dict);
+        this.setState({ formData: this.state.formData.merge(change) })
     }
     tableColumnFormat() {
         const tableColumn = [
@@ -47,10 +52,11 @@ class CourseList extends React.Component {
             <Content style={{background: '#fff',minHeight: "850px", padding: 10 }}>
                 <Row type="flex" justify="space-around" align="middle">
                     <Col span={22}>
-                        <Select value={formData.get("ethnic")}  onChange={(v) => { this.handleFieldChange(v, "ethnic") }} >
+                        <Select value={formData.get("center")}  onChange={(v) => { this.handleFieldChange(v, "center") }}  style={{ width: 200 }}>
+                            <Select.Option key={0} value={0}>全部</Select.Option>
                             {
                                this.state.centers.map(function (obj) {
-                                  return <Select.Option key={obj} value={obj}>{obj}</Select.Option>
+                                  return <Select.Option key={obj.get("id")} value={obj.get("id")}>{obj.get("name")}</Select.Option>
                                })
                             }
                         </Select>

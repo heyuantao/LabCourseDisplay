@@ -26,10 +26,15 @@ function setJWT(tokenObject) {
     localStorage.setItem('refresh_token', tokenObject.refresh)
 }
 
+function displayJWT(){
+    console.log("access_token:"+localStorage.getItem('access_token'));
+    console.log("refresh_token:"+localStorage.getItem('refresh_token'));
+}
 
 export default{
     getJWT:getJWT,
     setJWT:setJWT,
     clearJWT:clearJWT,
     getTestJWT:getTestJWT,
+    displayJWT:displayJWT,
 }

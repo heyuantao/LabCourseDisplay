@@ -3168,3 +3168,338 @@ Unauthorized: /api/v1/user/
 "GET /api/v1/user/ HTTP/1.1" 401 186
 /mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
 Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 186
+"GET /api/v1/user/ HTTP/1.1" 401 186
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/user/
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 186
+"GET /api/v1/user/ HTTP/1.1" 401 186
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 8938
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/guest/src changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/guest/src changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/HomePage changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/LoginPage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/LoginPage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/Settings.js changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/LoginPage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/common changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/common changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/v1/login/
+"POST /api/v1/login/ HTTP/1.1" 400 44
+Method Not Allowed: /api/v1/login/
+"GET /api/v1/login/ HTTP/1.1" 405 7455
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2719
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/LoginPage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/LoginPage changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/v1/login/ HTTP/1.1" 200 438
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/LoginPage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/v1/login/ HTTP/1.1" 200 465
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"POST /api/v1/login/ HTTP/1.1" 200 465
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+Watching for file changes with StatReloader
+"POST /api/v1/login/ HTTP/1.1" 200 438
+Watching for file changes with StatReloader
+"POST /api/v1/login/ HTTP/1.1" 200 465
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /manager/ HTTP/1.1" 200 2340
+"GET /media/manager//build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager//build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager//build/static/js/main.08734b59.chunk.js HTTP/1.1" 200 19442
+"GET /media/manager//build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager//build/static/js/2.3412437d.chunk.js HTTP/1.1" 200 1439626
+"GET /media/manager//build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager//build/static/js/main.08734b59.chunk.js.map HTTP/1.1" 200 51555
+"GET /media/manager//build/manifest.json HTTP/1.1" 200 492
+"GET /media/manager//build/static/js/2.3412437d.chunk.js.map HTTP/1.1" 200 4175431
+"GET /media/manager//build/logo192.png HTTP/1.1" 200 5347
+"GET /manager/ HTTP/1.1" 200 2340
+"GET /media/manager//build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager//build/static/js/main.08734b59.chunk.js HTTP/1.1" 200 19442
+"GET /media/manager//build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager//build/static/js/2.3412437d.chunk.js HTTP/1.1" 200 1439626
+"GET /media/manager//build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager//build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager//build/static/js/main.08734b59.chunk.js.map HTTP/1.1" 200 51555
+"GET /media/manager//build/static/js/2.3412437d.chunk.js.map HTTP/1.1" 200 4175431
+Unauthorized: /api/v1/user/
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 210
+"GET /api/v1/user/ HTTP/1.1" 401 210
+"GET /media/manager//build/manifest.json HTTP/1.1" 200 492
+"GET /media/manager//build/logo192.png HTTP/1.1" 200 5347
+/mnt/d/projects/LabCourseDispaly/API/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/MAIN/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/MAIN/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/terser-webpack-plugin/index-v5 changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/build changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 33
+"GET /guest HTTP/1.1" 301 0
+"GET /guest/ HTTP/1.1" 200 2372
+"GET /media/guest/build/static/css/main.7d55a031.chunk.css HTTP/1.1" 200 763
+"GET /media/guest/build/static/js/main.ec92543a.chunk.js HTTP/1.1" 200 11596
+"GET /media/guest/build/static/css/2.5c9ff467.chunk.css HTTP/1.1" 200 528837
+"GET /media/guest/build/static/js/2.b34acd83.chunk.js HTTP/1.1" 200 1345723
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /media/guest/build/manifest.json HTTP/1.1" 200 492
+"GET /media/guest/build/favicon.ico HTTP/1.1" 200 3870
+"GET /media/guest/build/logo192.png HTTP/1.1" 200 5347
+"GET /media/guest/build/static/js/main.ec92543a.chunk.js.map HTTP/1.1" 200 33889
+"GET /media/guest/build/static/css/main.7d55a031.chunk.css.map HTTP/1.1" 200 2584
+"GET /media/guest/build/static/js/2.b34acd83.chunk.js.map HTTP/1.1" 200 3809442
+"GET /media/guest/build/static/css/2.5c9ff467.chunk.css.map HTTP/1.1" 200 2052012
+"POST /api/v1/login/ HTTP/1.1" 200 465
+"GET /manager/ HTTP/1.1" 200 2340
+"GET /media/manager//build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager//build/static/js/main.08734b59.chunk.js HTTP/1.1" 200 19442
+"GET /media/manager//build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager//build/static/js/2.3412437d.chunk.js HTTP/1.1" 200 1439626
+"GET /media/manager//build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager//build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager//build/static/js/main.08734b59.chunk.js.map HTTP/1.1" 200 51555
+"GET /media/manager//build/static/js/2.3412437d.chunk.js.map HTTP/1.1" 200 4175431
+Unauthorized: /api/v1/user/
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 186
+"GET /api/v1/user/ HTTP/1.1" 401 186
+"GET /media/manager//build/manifest.json HTTP/1.1" 200 492
+"GET /media/manager//build/logo192.png HTTP/1.1" 200 5347
+"GET /manager/ HTTP/1.1" 200 2340
+"GET /media/manager//build/static/js/main.08734b59.chunk.js HTTP/1.1" 200 19442
+"GET /media/manager//build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager//build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager//build/static/js/2.3412437d.chunk.js HTTP/1.1" 200 1439626
+"GET /media/manager//build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager//build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager//build/static/js/main.08734b59.chunk.js.map HTTP/1.1" 200 51555
+"GET /media/manager//build/static/js/2.3412437d.chunk.js.map HTTP/1.1" 200 4175431
+Unauthorized: /api/v1/user/
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+"GET /media/manager//build/manifest.json HTTP/1.1" 200 492
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 186
+"GET /media/manager//build/logo192.png HTTP/1.1" 200 5347
+"GET /media/guest/build/static/css/main.7d55a031.chunk.css.map HTTP/1.1" 200 2584
+"GET /media/guest/build/static/js/main.ec92543a.chunk.js.map HTTP/1.1" 200 33889
+"GET /media/guest/build/static/css/2.5c9ff467.chunk.css.map HTTP/1.1" 200 2052012
+"GET /media/guest/build/static/js/2.b34acd83.chunk.js.map HTTP/1.1" 200 3809442
+"GET /media/guest/build/static/css/main.7d55a031.chunk.css.map HTTP/1.1" 200 2584
+"GET /media/guest/build/static/css/2.5c9ff467.chunk.css.map HTTP/1.1" 200 2052012
+"GET /media/manager//build/static/js/main.08734b59.chunk.js.map HTTP/1.1" 200 51555
+"GET /media/manager//build/static/js/2.3412437d.chunk.js.map HTTP/1.1" 200 4175431
+"GET /media/manager//build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager//build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+/mnt/d/projects/LabCourseDispaly/media/manager/build changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/node_modules/.cache/terser-webpack-plugin/index-v5 changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/build changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/build changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/build changed, reloading.
+Watching for file changes with StatReloader
+"GET /manager/ HTTP/1.1" 200 2334
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager/build/static/js/main.fdb28a51.chunk.js HTTP/1.1" 200 19442
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js HTTP/1.1" 200 1439624
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager/build/static/js/main.fdb28a51.chunk.js.map HTTP/1.1" 200 51551
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js.map HTTP/1.1" 200 4175431
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /media/manager/build/manifest.json HTTP/1.1" 200 492
+"GET /media/manager/build/logo192.png HTTP/1.1" 200 5347
+Not Found: /api/v1/experimentalcenter//2/course
+"GET /api/v1/experimentalcenter//2/course?total=0&pageSize=8&current=1 HTTP/1.1" 404 4576
+Not Found: /api/v1/experimentalcenter//2/course
+"GET /api/v1/experimentalcenter//2/course?total=0&pageSize=8&current=1 HTTP/1.1" 404 4576
+"GET /api/v1/experimentalcenter/2/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/2/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 13605
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /api/v1/user/ HTTP/1.1" 200 55

@@ -6,6 +6,7 @@ import { fromJS } from "immutable";
 import * as UserActionCreator from "../common/store/UserActionCreator"
 import Utils from "../common/utils";
 import Settings from "../../Settings";
+import Auth from "../common/Auth";
 
 import PageHeader from "../common/PageHeader";
 import PageFooter from "../common/PageFooter";
@@ -20,7 +21,6 @@ class LoginPage extends React.Component {
         this.state = {
             formData: fromJS({}),
             formFieldValidateInfo: "",
-            captchaImageSrc: "",
         }
     }
 
@@ -29,8 +29,10 @@ class LoginPage extends React.Component {
             return
         }
         req.post(Settings.loginAPIURL, this.state.formData.toJS()).then(function (response) {
-            if (response.data.dashboard_url !== undefined) {
-                window.location.href = response.data.dashboard_url;
+            Auth.setJWT(response.data);
+            Auth.displayJWT();
+            if (response.data.redirect_url !== undefined) {
+                window.location.href = response.data.redirect_url;
             }
         }).catch(function (error) {
         })
@@ -44,21 +46,15 @@ class LoginPage extends React.Component {
         let formData = this.state.formData;
         this.setState({ formFieldValidateInfo: "" })
 
-        if (!formData.get("email")) {
+        if (!formData.get("username")) {
             this.setState({ formFieldValidateInfo: "用户名不能为空！" })
             return -1
         }
-        {/*
-        if (!Utils.isEmailValid(formData.get("email"))) {
-            this.setState({ formFieldValidateInfo: "请使用邮箱注册 ！" })
-            return -1
-        }
-        */}
         if (!formData.get("password")) {
             this.setState({ formFieldValidateInfo: "请输入密码 ！" })
             return -1
         }
-        if ( formData.get("email").length> 50) {
+        if ( formData.get("username").length> 50) {
             this.setState({ formFieldValidateInfo: "用户名非法 ！" })
             return -1
         }
@@ -71,22 +67,12 @@ class LoginPage extends React.Component {
         this.setState({ formData: this.state.formData.merge(change) }, () => { this.validateFormField() })
     }
 
-    handleGoToUserDashboard(){
-        const user = this.props.user.get("user");
-        const isLogin = this.props.user.get("isLogin");
-        if(isLogin){
-            window.location.href = user.get('dashboard_url');
-        }
-    }
 
     render() {
         const formData = this.state.formData;
-        const user = this.props.user.get("user");
-        const isLogin = false;
         return (
             <Layout className="layout">
                 <Content style={{background: '#fff',minHeight: "850px", padding: 0 }}>
-                    {(isLogin === false) &&
                         <div style={{position: "absolute", width: "100%", top: "20%"}}>
                             <Row type="flex" justify="center" align="middle" style={{}}>
                                 <Col md={{span: 8}}>
@@ -97,8 +83,8 @@ class LoginPage extends React.Component {
                                 <Col md={{span: 6}}>
                                     <Form className="login-form">
                                         <FormItem>
-                                            <Input value={formData.get("email")} onChange={(e) => {
-                                                this.handleFieldChange(e.target.value, "email")
+                                            <Input value={formData.get("username")} onChange={(e) => {
+                                                this.handleFieldChange(e.target.value, "username")
                                             }}
                                                    prefix={<Icon type="user" style={{fontSize: 13}}/>} placeholder="请输入用户名"
                                                    size="large"/>
@@ -130,43 +116,6 @@ class LoginPage extends React.Component {
                                 </Col>
                             </Row>
                         </div>
-                    }
-                    { ((isLogin===true)&&(user.get("is_superuser")===true))&&
-                        <div style={{position: "absolute", width: "100%", top: "30%"}}>
-                            <Row type="flex" justify="center" align="middle" style={{}}>
-                                <Col md={{span: 20}}>
-                                    <h1 style={{height: "60px",lineHeight: "60px",color: "black",textAlign: "center"}}>
-                                        您已登录系统，点击下方或右上方按钮进入管理后台
-                                    </h1>
-                                    <div style={{marginTop:"50px"}}></div>
-                                    <h1 style={{ height: "60px", lineHeight: "60px", color: "black", textAlign: "center" }}>
-                                        <Button size="large" type="primary" onClick={()=>{this.handleGoToUserDashboard()}}>
-                                            进入{user.get("username")}的后台界面
-                                        </Button>
-                                    </h1>
-                                </Col>
-                            </Row>
-                        </div>
-                    }
-                    { ((isLogin===true)&&(user.get("is_superuser")===false))&&
-                        <div style={{position: "absolute", width: "100%", top: "30%"}}>
-                            <Row type="flex" justify="center" align="middle" style={{}}>
-                                <Col md={{span: 20}}>
-                                    <h1 style={{height: "60px",lineHeight: "60px",color: "black",textAlign: "center"}}>
-                                        考生您好，您已经登录系统！
-                                    </h1>
-                                    <h1 style={{height: "60px",lineHeight: "60px",color: "black",textAlign: "center"}}>
-                                        请点击下方按钮或右上方按钮进入后台以修改或添加报名信息
-                                    </h1>
-                                    <h1 style={{ height: "60px", lineHeight: "60px", color: "black", textAlign: "center" }}>
-                                        <Button size="large" type="primary" onClick={()=>{this.handleGoToUserDashboard()}}>
-                                            开始报名（{user.get("username")}已登录）
-                                        </Button>
-                                    </h1>
-                                </Col>
-                            </Row>
-                        </div>
-                    }
                 </Content>
                 <PageFooter></PageFooter>
             </Layout>
