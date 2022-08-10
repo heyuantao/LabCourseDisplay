@@ -14,7 +14,7 @@ class CourseList extends React.Component {
         this.state={
             formData: fromJS({center_name:""}),
             centers:fromJS([]),
-            pagination: fromJS({total: 0, pageSize: 8, current: 1}),
+            pagination: fromJS({total: 0, pageSize: 10, current: 1}),
             fetching: false,
             tableData: fromJS([]),
         }
@@ -42,6 +42,9 @@ class CourseList extends React.Component {
         if(params.get("center_name")==""){
             params=params.delete("center_name");
         }
+        if(params.get("course_date")==""){
+            params=params.delete("course_date");
+        }
         return params;
     }
     fetchTableData() {
@@ -68,10 +71,6 @@ class CourseList extends React.Component {
             return;
         }
         this.fetchTableData();
-    }
-    handleSearchClear(){
-        const formData = fromJS({});
-        this.setState({formData:formData});
     }
     tableColumnFormat() {
         const tableColumn = [
@@ -110,7 +109,6 @@ class CourseList extends React.Component {
                                      allowClear={true} placeholder={"请选择日期"} />
                             </Form.Item>
                             <Form.Item  style={{float:"right"}}>
-                                <Button onClick={()=>{this.handleSearchClear()}} type="default">清空</Button>
                                 <Button type="primary" style={{marginLeft:20}} onClick={()=>{this.handleSearchSubmit()}}>查询</Button>
                             </Form.Item>
                         </Form>

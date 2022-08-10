@@ -19,8 +19,6 @@ class PageHeader extends React.Component {
     }
     render() {
         const user = this.props.user.get("user");
-        //const isLogin = this.props.user.get("isLogin");
-        let isLogin= false;
         return (
             <Header >
                 <Row type="flex" justify="space-between" align="middle">
@@ -31,18 +29,14 @@ class PageHeader extends React.Component {
                     </Col>
                     <Col span={15} style={{float: "right"}}>
                         <Menu theme="dark" mode="horizontal" onSelect={(item)=>{this.handleMenuSelect(item)}} style={{lineHeight:"64px"}}>
-                            { (isLogin===false)&&
-                                <Menu.Item key="login" style={{float: "right"}}>
-                                    <Link to="/login">登录</Link>
-                                </Menu.Item>
-                            }
-                            { (isLogin===true)&&
-                                <Menu.Item key="login" style={{float: "right"}}>
-                                    <a onClick={()=>{this.handleGoToUserDashboard()}}>管理文件({user.get("username")}已登录)</a>
-                                </Menu.Item>
-                            }
-                            <Menu.Item key="home" style={{float: "right"}}>
-                                    <Link to="/home">课程浏览</Link>
+                            <Menu.Item key="login" style={{float: "right"}}>
+                                <Link to="/login">登录</Link>
+                            </Menu.Item>
+                            <Menu.Item key="query" style={{float: "right"}}>
+                                    <Link to="/query">课程查询</Link>
+                            </Menu.Item>
+                            <Menu.Item key="display" style={{float: "right"}}>
+                                    <Link to="/display">大屏展示</Link>
                             </Menu.Item>
                         </Menu>
                     </Col>

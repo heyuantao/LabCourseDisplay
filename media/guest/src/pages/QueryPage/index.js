@@ -6,7 +6,7 @@ import PageHeader from "../common/PageHeader";
 import PageFooter from "../common/PageFooter";
 import CourseList from "./CourseList";
 
-class HomePage extends React.Component {
+class QueryPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {}
@@ -23,4 +23,4 @@ class HomePage extends React.Component {
     }
 }
 
-export default HomePage;
+export default QueryPage;

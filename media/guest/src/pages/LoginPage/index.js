@@ -39,7 +39,7 @@ class LoginPage extends React.Component {
 
     }
     handleCancelSubmit(){
-        hashHistory.push("/home");
+        hashHistory.push("/query");
     }
 
     validateFormField(){
