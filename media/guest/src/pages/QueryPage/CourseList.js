@@ -30,8 +30,7 @@ class CourseList extends React.Component {
     handleFieldChange(value, field) {
         let dict = {}; dict[field] = value;
         let change = fromJS(dict);
-        this.setState({ formData: this.state.formData.merge(change) },()=>{console.log(this.state.formData.toJS());});
-
+        this.setState({ formData: this.state.formData.merge(change) });
     }
     validateFormField() {
         //let formData = this.state.formData;

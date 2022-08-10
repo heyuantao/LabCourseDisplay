@@ -43,6 +43,7 @@ export default{
     centerAPIURL:"/api/v1/experimentalcenter/",
 
     courseQueryAPIURL:"/api/v1/guest/course/",
+    todayCourseAPIURL:"/api/v1/guest/",  // url+center_id+/todaycourse/
 }
 
 
