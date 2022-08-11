@@ -208,11 +208,14 @@ class ExperimentalCenterCourseRetriveAPIView(generics.RetrieveAPIView):
 class ExperimentalCenterTodayCourseListAPIView(generics.ListAPIView):
     serializer_class = CourseSerializer
     pagination_class = None
+    test_date = datetime.strptime("2022-10-21", "%Y-%m-%d")
+    #test_date = None
 
     def get_queryset(self):
         id = self.kwargs['id']
         theDate = datetime.today()
-        #theDate = datetime.strptime("2022-5-11", "%Y-%m-%d")
+        if self.test_date is not None:
+            return CourseModel.objects.all().filter(experimental_center_id__exact=id).filter(course_date__gt=self.test_date)
         return CourseModel.objects.all().filter(experimental_center_id__exact=id).filter(course_date__exact=theDate)
 
     def get(self, request, id, *args, **kwargs):

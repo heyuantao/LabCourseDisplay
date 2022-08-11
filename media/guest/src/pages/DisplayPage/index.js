@@ -1,6 +1,6 @@
 import React from "react";
 import {Layout} from "antd";
-import PageHeader from "../common/PageHeader";
+import DisplayPageHeader from "./DisplayPageHeader";
 import PageFooter from "../common/PageFooter";
 import TodayCourseDisplay from "./TodayCourseDisplay";
 
@@ -15,7 +15,7 @@ class DisplayPage extends React.Component {
     render() {
         return (
             <Layout className="layout">
-                <PageHeader></PageHeader>
+                <DisplayPageHeader></DisplayPageHeader>
                 <TodayCourseDisplay></TodayCourseDisplay>
                 <PageFooter></PageFooter>
             </Layout>
