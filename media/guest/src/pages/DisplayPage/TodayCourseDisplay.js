@@ -22,25 +22,37 @@ class TodayCourseDisplay extends React.Component {
     }
     componentDidMount() {
         const centerUrl = Settings.centerAPIURL;
-        let current_page = 0;
         const page_size = 10;
-        const total_page = Math.floor(this.state.tableData.size/page_size);
-        req.get(centerUrl, {}).then((response) => { this.setState({ centers: fromJS(response.data) }) });
+        let current_page = 1;
+        let total_item;
+        let total_page;
         this.interval = setInterval(() => {
+            total_item = this.state.tableData.size;
+            total_page = Math.floor(total_item/page_size);
             if(current_page>total_page){
-                current_page=0;
+                current_page=1;
             }
-            this.repeatDisplayContent(current_page,page_size);
+            this.repeatDisplayContent(current_page,page_size,total_item);
             current_page=current_page+1;
-        }, 2000);
+        }, 3000);
+        req.get(centerUrl, {}).then((response) => { this.setState({ centers: fromJS(response.data) }) });
     }
     componentWillUnmount() {
         clearInterval(this.interval);
     }
-    repeatDisplayContent(current_page,page_size){
-        const count = this.state.tableData.size;
-        console.log("current page !");
-        console.log(current_page);
+    repeatDisplayContent(current_page,page_size,total_item){
+        let display_content = fromJS([]);
+        let begin = (current_page-1)*page_size+1
+        let end = (current_page)*page_size;
+        if(end>total_item){
+            end=total_item;
+        }
+        display_content= this.state.tableData.slice(begin,end);
+        this.setState({"displayTableData":display_content});
+
+        console.log("Display!");
+        console.log(begin);
+        console.log(end);
     }
     handleFieldChange(value, field) {
         let dict = {}; dict[field] = value;
@@ -98,7 +110,7 @@ class TodayCourseDisplay extends React.Component {
                 <Row type="flex" justify="space-around" align="middle">
                     <Col span={22}>
                         <div style={{ marginBottom: "15px" }}></div>
-                        <Table dataSource={this.state.tableData.toJS()} rowKey="id"  columns={this.tableColumnFormat()} loading={this.state.fetching}>
+                        <Table dataSource={this.state.displayTableData.toJS()} rowKey="id"  columns={this.tableColumnFormat()}>
                         </Table>
                     </Col>
                 </Row>
