@@ -4941,3 +4941,265 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 Bad Request: /api/v1/login/
 "POST /api/v1/login/ HTTP/1.1" 400 32
+/mnt/d/projects/LabCourseDispaly/media/manager/build changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/build changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 186
+"GET /manager/ HTTP/1.1" 200 2334
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager/build/static/js/main.39b57dc4.chunk.js HTTP/1.1" 200 19521
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js HTTP/1.1" 200 1439624
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager/build/static/js/main.39b57dc4.chunk.js.map HTTP/1.1" 200 51588
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js.map HTTP/1.1" 200 4175431
+Unauthorized: /api/v1/user/
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 186
+"GET /media/manager/build/manifest.json HTTP/1.1" 200 492
+"GET /media/manager/build/logo192.png HTTP/1.1" 200 5347
+"GET /manager/ HTTP/1.1" 200 2334
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager/build/static/js/main.39b57dc4.chunk.js HTTP/1.1" 200 19521
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js HTTP/1.1" 200 1439624
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager/build/static/js/main.39b57dc4.chunk.js.map HTTP/1.1" 200 51588
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js.map HTTP/1.1" 200 4175431
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 186
+"GET /media/manager/build/manifest.json HTTP/1.1" 200 492
+"GET /media/manager/build/logo192.png HTTP/1.1" 200 5347
+Watching for file changes with StatReloader
+"GET /manager/ HTTP/1.1" 200 2334
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager/build/static/js/main.39b57dc4.chunk.js HTTP/1.1" 200 19521
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js HTTP/1.1" 200 1439624
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager/build/static/js/main.39b57dc4.chunk.js.map HTTP/1.1" 200 51588
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js.map HTTP/1.1" 200 4175431
+Unauthorized: /api/v1/user/
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 186
+"GET /media/manager/build/manifest.json HTTP/1.1" 200 492
+"GET /media/manager/build/logo192.png HTTP/1.1" 200 5347
+"GET /manager/ HTTP/1.1" 200 2334
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager/build/static/js/main.39b57dc4.chunk.js HTTP/1.1" 200 19521
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js HTTP/1.1" 200 1439624
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager/build/static/js/main.39b57dc4.chunk.js.map HTTP/1.1" 200 51588
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js.map HTTP/1.1" 200 4175431
+Unauthorized: /api/v1/user/
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 186
+"GET /media/manager/build/manifest.json HTTP/1.1" 200 492
+"GET /media/manager/build/logo192.png HTTP/1.1" 200 5347
+/mnt/d/projects/LabCourseDispaly/media/manager/build changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/build changed, reloading.
+Watching for file changes with StatReloader
+"GET /manager/ HTTP/1.1" 200 2334
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager/build/static/js/main.c0d32d56.chunk.js HTTP/1.1" 200 19528
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js HTTP/1.1" 200 1439624
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager/build/static/js/main.c0d32d56.chunk.js.map HTTP/1.1" 200 51595
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js.map HTTP/1.1" 200 4175431
+Unauthorized: /api/v1/user/
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 186
+"GET /media/manager/build/manifest.json HTTP/1.1" 200 492
+"GET /media/manager/build/logo192.png HTTP/1.1" 200 5347
+Watching for file changes with StatReloader
+"GET /manager/ HTTP/1.1" 200 2334
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager/build/static/js/main.c0d32d56.chunk.js HTTP/1.1" 200 19528
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js HTTP/1.1" 200 1439624
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager/build/static/js/main.c0d32d56.chunk.js.map HTTP/1.1" 200 51595
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+Unauthorized: /api/v1/user/
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/user/ HTTP/1.1" 401 200
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 200
+"GET /media/manager/build/manifest.json HTTP/1.1" 200 492
+"GET /media/manager/build/logo192.png HTTP/1.1" 200 5347
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js.map HTTP/1.1" 200 4175431
+Watching for file changes with StatReloader
+"GET /manager/ HTTP/1.1" 200 2334
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager/build/static/js/main.c0d32d56.chunk.js HTTP/1.1" 200 19528
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js HTTP/1.1" 200 1439624
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager/build/static/js/main.c0d32d56.chunk.js.map HTTP/1.1" 200 51595
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager/build/manifest.json HTTP/1.1" 200 492
+"GET /media/manager/build/logo192.png HTTP/1.1" 200 5347
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js.map HTTP/1.1" 200 4175431
+Watching for file changes with StatReloader
+"GET /manager/ HTTP/1.1" 200 2334
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager/build/static/js/main.c0d32d56.chunk.js HTTP/1.1" 200 19528
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js HTTP/1.1" 200 1439624
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager/build/static/js/main.c0d32d56.chunk.js.map HTTP/1.1" 200 51595
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+Unauthorized: /api/v1/user/
+"GET /media/manager/build/manifest.json HTTP/1.1" 200 492
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 186
+"GET /media/manager/build/logo192.png HTTP/1.1" 200 5347
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js.map HTTP/1.1" 200 4175431
+"GET /manager/ HTTP/1.1" 200 2334
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager/build/static/js/main.c0d32d56.chunk.js HTTP/1.1" 200 19528
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js HTTP/1.1" 200 1439624
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager/build/static/js/main.c0d32d56.chunk.js.map HTTP/1.1" 200 51595
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager/build/manifest.json HTTP/1.1" 200 492
+"GET /media/manager/build/logo192.png HTTP/1.1" 200 5347
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js.map HTTP/1.1" 200 4175431
+Watching for file changes with StatReloader
+"GET /manager/ HTTP/1.1" 200 2334
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager/build/static/js/main.c0d32d56.chunk.js HTTP/1.1" 200 19528
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js HTTP/1.1" 200 1439624
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager/build/static/js/main.c0d32d56.chunk.js.map HTTP/1.1" 200 51595
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js.map HTTP/1.1" 200 4175431
+"GET /media/manager/build/manifest.json HTTP/1.1" 200 492
+Unauthorized: /api/v1/user/
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 211
+"GET /api/v1/user/ HTTP/1.1" 401 211
+"GET /media/manager/build/logo192.png HTTP/1.1" 200 5347
+"GET /manager/ HTTP/1.1" 200 2334
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager/build/static/js/main.c0d32d56.chunk.js HTTP/1.1" 200 19528
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js HTTP/1.1" 200 1439624
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager/build/static/js/main.c0d32d56.chunk.js.map HTTP/1.1" 200 51595
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js.map HTTP/1.1" 200 4175431
+Unauthorized: /api/v1/user/
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/user/ HTTP/1.1" 401 211
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 211
+"GET /media/manager/build/manifest.json HTTP/1.1" 200 492
+"GET /media/manager/build/logo192.png HTTP/1.1" 200 5347
+/mnt/d/projects/LabCourseDispaly/media/manager/src/Settings.js changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/build changed, reloading.
+Watching for file changes with StatReloader
+"GET /manager/ HTTP/1.1" 200 2334
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager/build/static/js/main.538a1955.chunk.js HTTP/1.1" 200 19634
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js HTTP/1.1" 200 1439624
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager/build/static/js/main.538a1955.chunk.js.map HTTP/1.1" 200 51906
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js.map HTTP/1.1" 200 4175431
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 211
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 211
+"GET /media/manager/build/manifest.json HTTP/1.1" 200 492
+"GET /guest/ HTTP/1.1" 200 2372
+"GET /guest/ HTTP/1.1" 200 2372
+"GET /media/manager/build/logo192.png HTTP/1.1" 200 5347
+"GET /media/guest/build/static/js/main.5e9753d5.chunk.js HTTP/1.1" 200 17357
+"GET /media/guest/build/static/css/main.7d55a031.chunk.css HTTP/1.1" 200 763
+"GET /media/guest/build/static/css/2.5c9ff467.chunk.css HTTP/1.1" 200 528837
+"GET /media/guest/build/static/js/2.f236916d.chunk.js HTTP/1.1" 200 1519136
+"GET /media/guest/build/static/css/main.7d55a031.chunk.css.map HTTP/1.1" 200 2584
+"GET /media/guest/build/static/js/main.5e9753d5.chunk.js.map HTTP/1.1" 200 49189
+"GET /media/guest/build/static/css/2.5c9ff467.chunk.css.map HTTP/1.1" 200 2052012
+"GET /media/guest/build/static/js/2.f236916d.chunk.js.map HTTP/1.1" 200 4469873
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /media/guest/build/manifest.json HTTP/1.1" 200 492
+"GET /media/guest/build/logo192.png HTTP/1.1" 200 5347
+"POST /api/v1/login/ HTTP/1.1" 200 465
+"GET /manager/ HTTP/1.1" 200 2334
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager/build/static/js/main.538a1955.chunk.js HTTP/1.1" 200 19634
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js HTTP/1.1" 200 1439624
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager/build/static/js/main.538a1955.chunk.js.map HTTP/1.1" 200 51906
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js.map HTTP/1.1" 200 4175431
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /media/manager/build/manifest.json HTTP/1.1" 200 492
+"GET /media/manager/build/logo192.png HTTP/1.1" 200 5347
+"GET /manager/ HTTP/1.1" 200 2334
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager/build/static/js/main.538a1955.chunk.js HTTP/1.1" 200 19634
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js HTTP/1.1" 200 1439624
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager/build/static/js/main.538a1955.chunk.js.map HTTP/1.1" 200 51906
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js.map HTTP/1.1" 200 4175431
+Unauthorized: /api/v1/user/
+Unauthorized: /api/v1/experimentalcenter/
+"GET /api/v1/user/ HTTP/1.1" 401 211
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 401 211
+"GET /media/manager/build/manifest.json HTTP/1.1" 200 492
+"GET /guest/ HTTP/1.1" 200 2372
+"GET /guest/ HTTP/1.1" 200 2372
+"GET /media/manager/build/logo192.png HTTP/1.1" 200 5347
+"GET /media/guest/build/static/css/main.7d55a031.chunk.css HTTP/1.1" 200 763
+"GET /media/guest/build/static/js/main.5e9753d5.chunk.js HTTP/1.1" 200 17357
+"GET /media/guest/build/static/css/2.5c9ff467.chunk.css HTTP/1.1" 200 528837
+"GET /media/guest/build/static/js/2.f236916d.chunk.js HTTP/1.1" 200 1519136
+"GET /media/guest/build/static/css/main.7d55a031.chunk.css.map HTTP/1.1" 200 2584
+"GET /media/guest/build/static/js/main.5e9753d5.chunk.js.map HTTP/1.1" 200 49189
+"GET /media/guest/build/static/css/2.5c9ff467.chunk.css.map HTTP/1.1" 200 2052012
+"GET /media/guest/build/static/js/2.f236916d.chunk.js.map HTTP/1.1" 200 4469873
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /media/guest/build/manifest.json HTTP/1.1" 200 492
+"GET /media/guest/build/logo192.png HTTP/1.1" 200 5347
+"POST /api/v1/login/ HTTP/1.1" 200 465
+"GET /manager/ HTTP/1.1" 200 2334
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager/build/static/js/main.538a1955.chunk.js HTTP/1.1" 200 19634
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js HTTP/1.1" 200 1439624
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager/build/static/js/main.538a1955.chunk.js.map HTTP/1.1" 200 51906
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js.map HTTP/1.1" 200 4175431
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /media/manager/build/manifest.json HTTP/1.1" 200 492
+"GET /media/manager/build/logo192.png HTTP/1.1" 200 5347

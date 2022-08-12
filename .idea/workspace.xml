@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fde21338-91e7-41dd-b32c-5f94acc800bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabCourseDisplay/rest_framework_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/LabCourseDisplay/rest_framework_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/media/manager/src/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/Settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/manager/src/pages/LoginPage/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/media/manager/src/pages/common/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/pages/common/Auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/manager/src/pages/common/store/UserActionCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/manager/src/pages/common/store/UserActionCreator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements" beforeDir="false" afterPath="$PROJECT_DIR$/requirements" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +136,7 @@
       <workItem from="1659919301424" duration="15233000" />
       <workItem from="1660002109074" duration="15014000" />
       <workItem from="1660113389310" duration="7582000" />
-      <workItem from="1660178321011" duration="23265000" />
+      <workItem from="1660178321011" duration="24622000" />
     </task>
     <servers />
   </component>
@@ -162,38 +160,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1659404948818" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1660298707646">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1660301076613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1660298707646" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1660298707646">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1660301076613" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1660301076613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1660298707646" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1660298707646">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1660301076613" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1660301076613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1660298707646" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1660298707646">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1660301076613" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1660301076613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1660298707646" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1660298707646">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1660301076613" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1660301076614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1660298707646" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1660298707646">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1660301076614" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1660301076614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1660298707646" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1660298707646">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1660301076614" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1660301076613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1660298707646" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1660298707646">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1660301076613" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1660301076614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1660298707646" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1660301076614" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1660299748514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

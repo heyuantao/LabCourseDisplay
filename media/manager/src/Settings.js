@@ -28,6 +28,9 @@ req.interceptors.response.use(
             if( (response.status===302)&&(response.data!==undefined)&&(response.data.redirect_url!==undefined)  ){
                 window.location.href=response.data.redirect_url;
             }
+            if( (response.status===401)&&(response.data!==undefined)&&(response.data.redirect_url!==undefined)  ){
+                window.location.href=response.data.redirect_url;
+            }
             if( response.status >=500 ){
                 message.error("请检查您的网络连接")
             }
