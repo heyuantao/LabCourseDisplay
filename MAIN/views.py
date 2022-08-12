@@ -3,6 +3,7 @@
 from django.shortcuts import render
 
 # Create your views here.
+from django.urls import reverse
 from django.views.generic.base import View
 from django.http import HttpResponseRedirect,HttpResponse
 
@@ -13,7 +14,8 @@ class IndexView(View):
     def get(self, request):
         #pageContext = request.GET.dict()
         #return render(request, self.template, pageContext)
-        return HttpResponse("这是实验室课程系统主站")
+        #return HttpResponse("这是实验室课程系统主站")
+        return HttpResponseRedirect(reverse("guest_home_page"))
 
 class GuestView(View):
     template = "guest/build/index.html"

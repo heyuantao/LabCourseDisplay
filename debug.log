@@ -5506,3 +5506,107 @@ Watching for file changes with StatReloader
 "GET /api/v1/guest/experimentalcenter/1/todaycourse/ HTTP/1.1" 200 129113
 "GET /api/v1/guest/experimentalcenter/1/todaycourse/ HTTP/1.1" 200 129113
 "GET /api/v1/guest/experimentalcenter/1/todaycourse/ HTTP/1.1" 200 129113
+"GET /api/v1/guest/experimentalcenter/1/todaycourse/ HTTP/1.1" 200 129113
+"GET /api/v1/guest/experimentalcenter/1/todaycourse/ HTTP/1.1" 200 129113
+Watching for file changes with StatReloader
+Not Found: /media/
+"GET /media/ HTTP/1.1" 404 2798
+"GET / HTTP/1.1" 200 33
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 200 3286
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+"GET /guest/ HTTP/1.1" 200 2372
+"GET /media/guest/build/static/css/main.7d55a031.chunk.css HTTP/1.1" 200 763
+"GET /media/guest/build/static/js/main.5e9753d5.chunk.js HTTP/1.1" 200 17357
+"GET /media/guest/build/static/css/2.5c9ff467.chunk.css HTTP/1.1" 200 528837
+"GET /media/guest/build/static/js/2.f236916d.chunk.js HTTP/1.1" 200 1519136
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /media/guest/build/manifest.json HTTP/1.1" 200 492
+"GET /media/guest/build/logo192.png HTTP/1.1" 200 5347
+"GET /media/guest/build/static/js/main.5e9753d5.chunk.js.map HTTP/1.1" 200 49189
+"GET /media/guest/build/static/css/main.7d55a031.chunk.css.map HTTP/1.1" 200 2584
+"GET /media/guest/build/static/css/2.5c9ff467.chunk.css.map HTTP/1.1" 200 2052012
+"GET /media/guest/build/static/js/2.f236916d.chunk.js.map HTTP/1.1" 200 4469873
+"GET /guest/ HTTP/1.1" 200 2372
+"GET /media/guest/build/static/css/main.7d55a031.chunk.css HTTP/1.1" 200 763
+"GET /media/guest/build/static/js/main.5e9753d5.chunk.js HTTP/1.1" 200 17357
+"GET /media/guest/build/static/css/2.5c9ff467.chunk.css HTTP/1.1" 200 528837
+"GET /media/guest/build/static/js/2.f236916d.chunk.js HTTP/1.1" 200 1519136
+"GET /media/guest/build/static/css/main.7d55a031.chunk.css.map HTTP/1.1" 200 2584
+"GET /media/guest/build/static/css/2.5c9ff467.chunk.css.map HTTP/1.1" 200 2052012
+"GET /media/guest/build/static/js/main.5e9753d5.chunk.js.map HTTP/1.1" 200 49189
+"GET /media/guest/build/static/js/2.f236916d.chunk.js.map HTTP/1.1" 200 4469873
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /media/guest/build/manifest.json HTTP/1.1" 200 492
+"GET /media/guest/build/favicon.ico HTTP/1.1" 200 3870
+"GET /media/guest/build/logo192.png HTTP/1.1" 200 5347
+/mnt/d/projects/LabCourseDispaly/MAIN/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/mnt/d/projects/labcoursedisplayvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/d/projects/labcoursedisplayvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/d/projects/labcoursedisplayvenv/lib/python3.6/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/d/projects/labcoursedisplayvenv/lib/python3.6/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/mnt/d/projects/LabCourseDispaly/MAIN/views.py", line 17, in get
+    #return HttpResponse("这是实验室课程系统主站")
+NameError: name 'reverse' is not defined
+"GET / HTTP/1.1" 500 70921
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 302 0
+"GET /guest/ HTTP/1.1" 200 2372
+"GET /media/guest/build/static/css/main.7d55a031.chunk.css HTTP/1.1" 200 763
+"GET /media/guest/build/static/js/main.5e9753d5.chunk.js HTTP/1.1" 200 17357
+"GET /media/guest/build/static/css/2.5c9ff467.chunk.css HTTP/1.1" 200 528837
+"GET /media/guest/build/static/js/2.f236916d.chunk.js HTTP/1.1" 200 1519136
+"GET /media/guest/build/static/css/main.7d55a031.chunk.css.map HTTP/1.1" 200 2584
+"GET /media/guest/build/static/css/2.5c9ff467.chunk.css.map HTTP/1.1" 200 2052012
+"GET /media/guest/build/static/js/main.5e9753d5.chunk.js.map HTTP/1.1" 200 49189
+"GET /media/guest/build/static/js/2.f236916d.chunk.js.map HTTP/1.1" 200 4469873
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /media/guest/build/manifest.json HTTP/1.1" 200 492
+"GET /media/guest/build/logo192.png HTTP/1.1" 200 5347
+"GET / HTTP/1.1" 302 0
+"GET /guest/ HTTP/1.1" 200 2372
+"GET /media/guest/build/static/css/main.7d55a031.chunk.css HTTP/1.1" 200 763
+"GET /media/guest/build/static/js/main.5e9753d5.chunk.js HTTP/1.1" 200 17357
+"GET /media/guest/build/static/css/2.5c9ff467.chunk.css HTTP/1.1" 200 528837
+"GET /media/guest/build/static/js/2.f236916d.chunk.js HTTP/1.1" 200 1519136
+"GET /media/guest/build/static/css/main.7d55a031.chunk.css.map HTTP/1.1" 200 2584
+"GET /media/guest/build/static/js/main.5e9753d5.chunk.js.map HTTP/1.1" 200 49189
+"GET /media/guest/build/static/css/2.5c9ff467.chunk.css.map HTTP/1.1" 200 2052012
+"GET /media/guest/build/static/js/2.f236916d.chunk.js.map HTTP/1.1" 200 4469873
+"GET /api/v1/user/ HTTP/1.1" 302 26
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /media/guest/build/manifest.json HTTP/1.1" 200 492
+"GET /media/guest/build/logo192.png HTTP/1.1" 200 5347
+"POST /api/v1/login/ HTTP/1.1" 200 465
+"GET /manager/ HTTP/1.1" 200 2334
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager/build/static/js/main.a269a5e4.chunk.js HTTP/1.1" 200 19590
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js HTTP/1.1" 200 1439624
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager/build/static/js/main.a269a5e4.chunk.js.map HTTP/1.1" 200 51952
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js.map HTTP/1.1" 200 4175431
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/experimentalcenter/ HTTP/1.1" 200 114
+"GET /media/manager/build/manifest.json HTTP/1.1" 200 492
+"GET /media/manager/build/logo192.png HTTP/1.1" 200 5347
+"GET /api/v1/experimentalcenter/1/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
+"GET /api/v1/experimentalcenter/1/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 2991

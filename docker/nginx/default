@@ -40,20 +40,11 @@ server {
 
 	server_name _;
 
-        location /main/manager/media/static/ {
-            alias /app/EEAS/media/manager/build/static/;
+        location /media/guest/build/ {
+            alias /app/LabCourseDisplay/media/guest/build/;
         }
-        location /main/examinee/media/static/ {
-            alias /app/EEAS/media/examinee/build/static/;
-        }
-        location /main/guest/media/static/ {
-            alias /app/EEAS/media/guest/build/static/;
-        }
-        location /media/libs/ {
-            alias /app/EEAS/media/libs/;
-        }
-	    location /media/avatar/ {
-	        alias /app/EEAS/media/avatar/;
+        location /media/manager/build/ {
+            alias /app/LabCourseDisplay/media/manager/build/;
         }
 
 	location / {
@@ -66,10 +57,6 @@ server {
 		# as directory, then fall back to displaying a 404.
 		#try_files $uri $uri/ =404;
 	}
-        #location /media/ {
-        #    root /app/EEAS/;
-        #}
-
 	# pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
 	#
 	#location ~ \.php$ {
