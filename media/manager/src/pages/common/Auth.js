@@ -16,10 +16,9 @@ function getTestJWT(){
 
 
 function clearJWT() {
-    console.log("Clear the token in LocalStorage and Authorization head information !");
     localStorage.setItem('access_token', "");
     localStorage.setItem('refresh_token', "");
-    Settings.request.headers.Authorization = "Bearer ";
+    Settings.request.defaults.headers["Authorization"] = "";
 }
 
 function setJWT(tokenObject) {

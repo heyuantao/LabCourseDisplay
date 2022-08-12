@@ -6,11 +6,16 @@ let baseUrl=""
 let req=axios.create({
     baseURL:baseUrl,
     headers: {
-        "Authorization": "Bearer "+Auth.getJWT(),
+        //"Authorization": "Bearer "+Auth.getJWT(),
         "Content-Type": 'application/json;charset=UTF-8',
         "Accept": "application/json"
     }
 })
+
+if(Auth.getJWT()!==""){
+    req.defaults.headers["Authorization"] = "Bearer "+Auth.getJWT()
+}
+
 
 req.interceptors.response.use(
     function (response){
