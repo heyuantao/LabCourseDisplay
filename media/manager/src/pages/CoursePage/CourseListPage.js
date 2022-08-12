@@ -70,7 +70,7 @@ class CourseListPage extends React.Component{
         return tableColumn;
     }
     render() {
-        const fileUploadUrl =  Settings.centerAPIURL+"/"+this.props.center_id+"/file/";
+        const fileUploadUrl =  Settings.centerAPIURL+this.props.center_id+"/file/";
         return (
             <div>
                 <CourseUploadModal visible={this.state.uploadModalVisiable} action={fileUploadUrl} close={()=>{this.handleModalClose()}}></CourseUploadModal>
