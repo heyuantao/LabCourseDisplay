@@ -38,7 +38,7 @@ class CourseListPage extends React.Component{
     fetchTableData() {
         const center_id = this.props.center_id;
         let params = this.state.pagination.toJS();
-        const url = Settings.centerAPIURL+"/"+center_id+"/"+"course";
+        const url = Settings.centerAPIURL+center_id+"/"+"course";
         this.setState({fetching:true})
         req.get(url,{params:params}).then((response)=>{
             let tableData = fromJS(response.data.items);
