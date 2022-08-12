@@ -39,4 +39,4 @@ RUN bash /app/LabCourseDisplay/docker/install/install_web.sh
 #ENV LC_ALL zh_CN.UTF-8
 
 #run time
-#ENTRYPOINT  ["supervisord","-n"]
+ENTRYPOINT  ["supervisord","-n"]
