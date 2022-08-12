@@ -5610,3 +5610,5 @@ Watching for file changes with StatReloader
 "GET /media/manager/build/logo192.png HTTP/1.1" 200 5347
 "GET /api/v1/experimentalcenter/1/course?total=0&pageSize=8&current=1 HTTP/1.1" 301 0
 "GET /api/v1/experimentalcenter/1/course/?total=0&pageSize=8&current=1 HTTP/1.1" 200 2991
+/mnt/d/projects/LabCourseDispaly/LabCourseDisplay/settings.py changed, reloading.
+Watching for file changes with StatReloader

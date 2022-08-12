@@ -87,7 +87,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'labcoursedisplay',
         'USER': 'root',
-        'PASSWORD': '',
+        'PASSWORD': '19831122',
         # 'PASSWORD': '',
         'HOST': '127.0.0.1',
         'PORT': '3306',

@@ -6,7 +6,7 @@
 ###1.1 Build the docker images
 
 ```
-git clone https://github.com/heyuantao/LabCourseDisplay.git /app/EEAS
+git clone https://github.com/heyuantao/LabCourseDisplay.git /app/LabCourseDisplay
 cd LabCourseDisplay                        #change directory to project root
 docker build -t labcoursedisplay:1.0 .
 ```
@@ -16,15 +16,13 @@ docker build -t labcoursedisplay:1.0 .
 sudo mkdir -p /app
 sudo chown -R ${USER}:${USER} /app/  
 sudo mkdir -p /app/data/db
-cd EEAS                                 #change directory to project root because the following command will use mysql configuration file
+cd LabCourseDisplay                                 #change directory to project root because the following command will use mysql configuration file
 docker run -d --name=mysql --restart=always --network=host -e MYSQL_ROOT_PASSWORD=19831122 -e MYSQL_DATABASE=labcoursedisplay -v /app/data/db:/var/lib/mysql -v $PWD/docker/mysqld/mysqld.cnf:/etc/mysql/mysql.conf.d/mysqld.cnf mysql:5.6
 ```
 
 ###1.3 Start the app docker
 ```
-sudo mkdir -p /app/data/avatar      #存放用户上传的头像
-sudo mkdir -p /app/data/logs        #存放日志
-docker run -d --name=eeas --restart=always --network=host -e DB_PASSWORD=19831122 -e DB_HOST=127.0.0.1 -v /app/data/avatar/:/app/EEAS/media/avatar/ -v /app/data/logs/:/var/log/supervisor/ eeas:3.0
+docker run -d --name=labcoursedisplay --restart=always --network=host -e DB_PASSWORD=19831122 -e DB_HOST=127.0.0.1 -v /app/data/logs/:/var/log/supervisor/ labcoursedisplay:1.0
 #后期还要加入微服务的连接信息
 ```
 
