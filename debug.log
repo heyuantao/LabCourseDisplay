@@ -5658,3 +5658,7 @@ Bad Request: /api/v1/login/
 Watching for file changes with StatReloader
 Bad Request: /api/v1/login/
 "POST /api/v1/login/ HTTP/1.1" 400 35
+Bad Request: /api/v1/login/
+"POST /api/v1/login/ HTTP/1.1" 400 35
+/mnt/d/projects/LabCourseDispaly/LabCourseDisplay/settings.py changed, reloading.
+Watching for file changes with StatReloader
