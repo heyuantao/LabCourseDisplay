@@ -17,7 +17,7 @@ installenv: ##install python env and other tools   #@echo $(PATH)
 
 installnodeenv: ##install node env
 	@echo "Install NodeEnv and nodemodules!"
-	@nodeenv ../nodeenv --node=10.15.3 --prebuilt --mirror=npm.taobao.org
+	@nodeenv ../nodeenv --node=14.7.0 --prebuilt --mirror=https://npm.taobao.org/mirrors/node
 	@npm install -g yarn --registry https://registry.npm.taobao.org
 	@cd ./media/guest/    && yarn install --registry  https://registry.npm.taobao.org
 	@cd ./media/manager/  && yarn install --registry  https://registry.npm.taobao.org
