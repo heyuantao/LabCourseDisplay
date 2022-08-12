@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fde21338-91e7-41dd-b32c-5f94acc800bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MAIN/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MAIN/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/install/init_web.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/install/init_web.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/install/install_web.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/install/install_web.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/nginx/default" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nginx/default" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="jsx.switch.disabled" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/media/guest/src/pages/DisplayPage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MAIN/management/commands" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -138,7 +134,7 @@
       <workItem from="1660002109074" duration="15014000" />
       <workItem from="1660113389310" duration="7582000" />
       <workItem from="1660178321011" duration="27849000" />
-      <workItem from="1660309081634" duration="535000" />
+      <workItem from="1660309081634" duration="728000" />
     </task>
     <servers />
   </component>
