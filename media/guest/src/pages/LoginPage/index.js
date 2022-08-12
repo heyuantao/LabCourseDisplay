@@ -34,9 +34,9 @@ class LoginPage extends React.Component {
             if (response.data.redirect_url !== undefined) {
                 window.location.href = response.data.redirect_url;
             }
-        }).catch(function (error) {
-        })
-
+        }.bind(this)).catch(function (error) {
+            this.setState({ formFieldValidateInfo: error.response.data.error_message })
+        }.bind(this))
     }
     handleCancelSubmit(){
         hashHistory.push("/query");

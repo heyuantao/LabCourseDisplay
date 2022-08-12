@@ -5615,3 +5615,46 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 /mnt/d/projects/LabCourseDispaly/media/manager/src/pages/CoursePage changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/LabCourseDisplay/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Bad Request: /api/v1/login/
+"POST /api/v1/login/ HTTP/1.1" 400 32
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/v1/login/
+"POST /api/v1/login/ HTTP/1.1" 400 35
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/v1/login/
+"POST /api/v1/login/ HTTP/1.1" 400 35
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/v1/login/
+"POST /api/v1/login/ HTTP/1.1" 400 35
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/LoginPage changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/v1/login/
+"POST /api/v1/login/ HTTP/1.1" 400 35
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/v1/login/
+"POST /api/v1/login/ HTTP/1.1" 400 35
+Bad Request: /api/v1/login/
+"POST /api/v1/login/ HTTP/1.1" 400 35
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/LoginPage changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/v1/login/
+"POST /api/v1/login/ HTTP/1.1" 400 35
+/mnt/d/projects/LabCourseDispaly/media/guest/node_modules/.cache/babel-loader changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/v1/login/
+"POST /api/v1/login/ HTTP/1.1" 400 35
+/mnt/d/projects/LabCourseDispaly/media/guest/src/pages/LoginPage changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/v1/login/
+"POST /api/v1/login/ HTTP/1.1" 400 35

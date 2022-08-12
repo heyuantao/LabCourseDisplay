@@ -87,9 +87,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'labcoursedisplay',
         'USER': 'root',
-        'PASSWORD': '19831122',
-        # 'PASSWORD': '',
-        'HOST': '127.0.0.1',
+        'PASSWORD': os.getenv('DB_PASSWORD', default=''),
+        'HOST': os.getenv('DB_HOST', default='localhost'),
         'PORT': '3306',
     }
     #'default': {
@@ -97,6 +96,9 @@ DATABASES = {
     #    'NAME': BASE_DIR / 'db.sqlite3',
     #}
 }
+if DEBUG==True:                                 #This is dev env for DATABASES, use with pycharm on windows 10
+    DATABASES['default']['HOST']='127.0.0.1'
+    DATABASES['default']['PASSWORD'] = ''
 
 
 # Password validation
