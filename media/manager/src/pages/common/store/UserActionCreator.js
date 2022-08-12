@@ -5,7 +5,6 @@ import Auth from "../Auth";
 
 const req = Settings.request;
 const userAPIURL = Settings.userAPIURL;
-const logoutAPIURL = Settings.logoutAPIURL;
 
 export const getUser = () => {
     return (dispatch)=>{

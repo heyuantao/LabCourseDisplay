@@ -16,9 +16,10 @@ function getTestJWT(){
 
 
 function clearJWT() {
-    console.log("Clear JWT in Auth.js");
+    console.log("Clear the token in LocalStorage and Authorization head information !");
     localStorage.setItem('access_token', "");
-    localStorage.setItem('refresh_token', "")
+    localStorage.setItem('refresh_token', "");
+    Settings.request.headers.Authorization = "";
 }
 
 function setJWT(tokenObject) {

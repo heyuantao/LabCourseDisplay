@@ -3,12 +3,11 @@ import { message } from 'antd';
 import Auth from "./pages/common/Auth";
 
 let baseUrl=""
-//let csrftoken=cookie.load('csrftoken');
 let req=axios.create({
     baseURL:baseUrl,
     headers: {
-        Authorization: "Bearer "+Auth.getJWT(),
-        'Content-Type': 'application/json;charset=UTF-8',
+        "Authorization": "Bearer "+Auth.getJWT(),
+        "Content-Type": 'application/json;charset=UTF-8',
         "Accept": "application/json"
     }
 })

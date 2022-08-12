@@ -4886,3 +4886,58 @@ Watching for file changes with StatReloader
 "GET /api/v1/experimentalcenter/1/course/?total=381&pageSize=8&current=7 HTTP/1.1" 200 3013
 "GET /api/v1/experimentalcenter/1/course?total=381&pageSize=8&current=8 HTTP/1.1" 301 0
 "GET /api/v1/experimentalcenter/1/course/?total=381&pageSize=8&current=8 HTTP/1.1" 200 3109
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/user/ HTTP/1.1" 200 55
+"GET /api/v1/user/ HTTP/1.1" 200 55
+/mnt/d/projects/LabCourseDispaly/media/manager/build changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/build changed, reloading.
+Watching for file changes with StatReloader
+"GET /manager/ HTTP/1.1" 200 2334
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager/build/static/js/main.25397bda.chunk.js HTTP/1.1" 200 19438
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js HTTP/1.1" 200 1439624
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager/build/static/js/main.25397bda.chunk.js.map HTTP/1.1" 200 51540
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js.map HTTP/1.1" 200 4175431
+Unauthorized: /api/v1/user/
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+"GET /api/v1/user/ HTTP/1.1" 401 186
+"GET /media/manager/build/manifest.json HTTP/1.1" 200 492
+"GET /media/manager/build/logo192.png HTTP/1.1" 200 5347
+/mnt/d/projects/LabCourseDispaly/media/manager/src changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/common changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/common changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/common changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/src/Settings.js changed, reloading.
+Watching for file changes with StatReloader
+/mnt/d/projects/LabCourseDispaly/media/manager/build changed, reloading.
+Watching for file changes with StatReloader
+"GET /manager/ HTTP/1.1" 200 2334
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css HTTP/1.1" 200 763
+"GET /media/manager/build/static/js/main.3b61c7dd.chunk.js HTTP/1.1" 200 19538
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css HTTP/1.1" 200 528837
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js HTTP/1.1" 200 1439624
+"GET /media/manager/build/static/css/main.077ad3b2.chunk.css.map HTTP/1.1" 200 2592
+"GET /media/manager/build/static/css/2.25a09dad.chunk.css.map HTTP/1.1" 200 2052464
+"GET /media/manager/build/static/js/main.3b61c7dd.chunk.js.map HTTP/1.1" 200 51668
+"GET /media/manager/build/static/js/2.b3245a39.chunk.js.map HTTP/1.1" 200 4175431
+Unauthorized: /api/v1/user/
+Unauthorized: /api/v1/user/
+"GET /api/v1/user/ HTTP/1.1" 401 186
+"GET /api/v1/user/ HTTP/1.1" 401 186
+"GET /media/manager/build/manifest.json HTTP/1.1" 200 492
+"GET /media/manager/build/logo192.png HTTP/1.1" 200 5347
+/mnt/d/projects/LabCourseDispaly/media/manager/src/pages/common/store changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Bad Request: /api/v1/login/
+"POST /api/v1/login/ HTTP/1.1" 400 32
