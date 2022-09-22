@@ -208,8 +208,8 @@ class ExperimentalCenterCourseRetriveAPIView(generics.RetrieveAPIView):
 class ExperimentalCenterTodayCourseListAPIView(generics.ListAPIView):
     serializer_class = CourseSerializer
     pagination_class = None
-    test_date = datetime.strptime("2022-10-21", "%Y-%m-%d")
-    #test_date = None
+    #test_date = datetime.strptime("2022-10-21", "%Y-%m-%d")
+    test_date = None
 
     def get_queryset(self):
         id = self.kwargs['id']
