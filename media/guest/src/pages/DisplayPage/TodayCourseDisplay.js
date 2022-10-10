@@ -46,7 +46,7 @@ class TodayCourseDisplay extends React.Component {
     }
     repeatDisplayContent(current_page,page_size,total_item){
         let display_content = fromJS([]);
-        let begin = (current_page-1)*page_size+1
+        let begin = (current_page-1)*page_size;
         let end = (current_page)*page_size;
         const ratio = Math.floor(current_page/(total_item/page_size)*100)
         if(end>total_item){
