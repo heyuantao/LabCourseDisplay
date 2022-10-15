@@ -39,7 +39,7 @@ class TodayCourseDisplay extends React.Component {
             }
             this.repeatDisplayContent(current_page,page_size,total_item);
             current_page=current_page+1;
-        }, 3000);
+        }, 5000);
         this.loadDataTimer = setInterval(()=>{this.fetchTableData();},10000);
     }
     componentWillUnmount() {

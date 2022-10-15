@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fde21338-91e7-41dd-b32c-5f94acc800bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/LabCourseDispaly.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LabCourseDispaly.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LabCourseDisplay/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/LabCourseDisplay/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/guest/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/media/guest/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/media/guest/src/pages/DisplayPage/TodayCourseDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/guest/src/pages/DisplayPage/TodayCourseDisplay.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +143,7 @@
       <workItem from="1663854414962" duration="115000" />
       <workItem from="1665756093746" duration="1773000" />
       <workItem from="1665757880772" duration="1885000" />
-      <workItem from="1665797157555" duration="2402000" />
+      <workItem from="1665797157555" duration="4573000" />
     </task>
     <servers />
   </component>
@@ -168,22 +167,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1659404948818" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1665798169895">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1665801913307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1665798169895" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1665798169895">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1665801913307" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1665801913307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1665798169895" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1665798169894">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1665801913307" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1665801913307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1665798169894" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1665798169895">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1665801913307" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1665801913307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1665798169895" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1665801913307" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1660308231398">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -218,12 +217,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/API/views.py</url>
-          <line>245</line>
+          <line>238</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/API/views.py</url>
-          <line>285</line>
+          <line>278</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
