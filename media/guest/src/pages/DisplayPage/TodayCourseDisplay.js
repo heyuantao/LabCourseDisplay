@@ -1,6 +1,6 @@
 import React from "react";
 import {connect} from "react-redux";
-import {Row, Col, Form, Input, Button, Alert, Icon, Layout, Menu, Select, DatePicker, Table, Progress} from "antd";
+import {Row, Col, Form, Input, Button, Alert, Icon, Layout, Menu, Select, DatePicker, Table, Progress,InputNumber } from "antd";
 import { Link,hashHistory } from "react-router";
 import { fromJS } from "immutable";
 import Settings from "../../Settings";
@@ -19,19 +19,21 @@ class TodayCourseDisplay extends React.Component {
             tableData: fromJS([]),
             displayTableData: fromJS([]),
             displayRatio: 0,
+            pageSize: 15,
         }
     }
     componentDidMount() {
         const centerUrl = Settings.centerAPIURL;
-        const page_size = 16;
+        //const page_size = 16;
         let current_page = 1;
         let total_item;
         let total_page;
         req.get(centerUrl, {}).then((response) => { this.setState({ centers: fromJS(response.data) }) });
 
         this.displayTimer = setInterval(() => {
+            let page_size = this.state.pageSize;
             total_item = this.state.tableData.size;
-            total_page = Math.floor(total_item/page_size);
+            total_page = Math.ceil(total_item/page_size);
             if(current_page>total_page){
                 current_page=1;
             }
@@ -62,12 +64,15 @@ class TodayCourseDisplay extends React.Component {
         let change = fromJS(dict);
         this.setState({ formData: this.state.formData.merge(change) },()=>{this.fetchTableData()});
     }
+    handlePageSizeChange(value){
+        this.setState({"pageSize":value});
+    }
     fetchTableData() {
         const apiURL = Settings.todayCourseAPIURL;
         const center_id = this.state.formData.get("center_id");
-        if(center_id==0){
-            return 0;
-        }
+        //if(center_id==0){
+        //    return 0;
+        //}
         let url = apiURL+center_id+"/todaycourse/";
         this.setState({fetching:true});
         req.get(url).then((response)=>{
@@ -101,7 +106,7 @@ class TodayCourseDisplay extends React.Component {
                                 <Form  layout="inline">
                                     <Form.Item label={"实验中心"}>
                                         <Select value={formData.get("center_id")}  onChange={(v) => { this.handleFieldChange(v, "center_id") }}  style={{ width: 200 }}>
-                                            <Select.Option key={0} value={0}>未选择</Select.Option>
+                                            <Select.Option key={0} value={0}>所有实验中心</Select.Option>
                                             {
                                                this.state.centers.map(function (obj) {
                                                   return <Select.Option key={obj.get("id")} value={obj.get("id")}>{obj.get("name")}</Select.Option>
@@ -109,9 +114,14 @@ class TodayCourseDisplay extends React.Component {
                                             }
                                         </Select>
                                     </Form.Item>
+                                    <Form.Item label={"每页最大显示行数"} >
+                                        <InputNumber min={5} max={20} value={this.state.pageSize} onChange={(v)=>{this.handlePageSizeChange(v)}}/>
+                                    </Form.Item>
                                 </Form>
                             </Col>
-                            <Col span={5}><Progress percent={this.state.displayRatio} size="small" /></Col>
+                            <Col span={5}>
+                                <Progress percent={this.state.displayRatio} size="small" status="normal" />
+                            </Col>
                         </Row>
                     </Col>
                 </Row>
